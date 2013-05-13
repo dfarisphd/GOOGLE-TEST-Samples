@@ -1,0 +1,194 @@
+//------------------------------------------------------------------------------
+// FILE-NAME  :=  { README-gtest-compile-samples.json }
+// FILE-PATH  :=  { /opt/gtest }
+//------------------------------------------------------------------------------
+//
+// { /opt/gtest/gtest-1.6.0/ }
+//
+// gtest-1.6.0-build-cmake-gui-makefiles-static-debug/
+// gtest-1.6.0-build-cmake-gui-makefiles-shared-debug/
+//
+// gtest-1.6.0-static-debug@ ->
+// ./gtest-1.6.0-build-cmake-gui-makefiles-static-debug
+//
+// gtest-1.6.0-shared-debug@ ->
+// ./gtest-1.6.0-build-cmake-gui-makefiles-shared-debug
+//
+//------------------------------------------------------------------------------
+//------------------------------------------------------------------------------
+//
+// gtest-1.6.0-static-debug@ ->
+// ./gtest-1.6.0-build-cmake-gui-makefiles-static-debug
+//
+//    gtest_unittest*
+//    include/
+//    libgtest.a
+//    libgtest_dll.dylib*
+//    libgtest_main.a
+//    libgtest_main_no_exception.a
+//    libgtest_main_no_rtti.a
+//    libgtest_main_use_own_tuple.a
+//    libgtest_no_exception.a
+//    sample10_unittest*
+//    sample1_unittest*
+//
+//------------------------------------------------------------------------------
+//
+// gtest-1.6.0-shared-debug@ ->
+// ./gtest-1.6.0-build-cmake-gui-makefiles-shared-debug
+//
+//    gtest_unittest*
+//    include/
+//    libgtest.dylib*
+//    libgtest_dll.dylib*
+//    libgtest_main.dylib*
+//    libgtest_main_no_exception.dylib*
+//    libgtest_main_no_rtti.dylib*
+//    libgtest_main_use_own_tuple.dylib*
+//    libgtest_no_exception.dylib*
+//    sample10_unittest*
+//    sample1_unittest*
+//
+//------------------------------------------------------------------------------
+//------------------------------------------------------------------------------
+
+GTEST_COMPILE_sample01_STATIC_DEBUG = [
+
+{
+
+   "current_directory":
+      "/opt/gtest/gtest-1.6.0-build-cmake-gui-makefiles-static-debug",
+
+   "source_files":
+      "/opt/gtest/gtest-1.6.0/samples/sample1.cc",
+
+   "compile_link_commands":
+      "/usr/bin/c++ \
+         -Wall -Wextra -O0 -gdwarf-2 \
+         -I/opt/gtest/gtest-1.6.0 \
+         -I/opt/gtest/gtest-1.6.0/include \
+         -DGTEST_HAS_PTHREAD=1 \
+         -o CMakeFiles/sample1_unittest.dir/samples/sample1.cc.o \
+      -c /opt/gtest/gtest-1.6.0/samples/sample1.cc",
+
+},
+
+{
+
+   "current_directory":
+      "/opt/gtest/gtest-1.6.0-build-cmake-gui-makefiles-static-debug",
+
+   "source_files":
+      "/opt/gtest/gtest-1.6.0/samples/sample1_unittest.cc",
+
+   "compile_link_commands":
+      "/usr/bin/c++ \
+         -Wall -Wextra -O0 -gdwarf-2 \
+         -I/opt/gtest/gtest-1.6.0 \
+         -I/opt/gtest/gtest-1.6.0/include \
+         -DGTEST_HAS_PTHREAD=1 \
+         -o CMakeFiles/sample1_unittest.dir/samples/sample1_unittest.cc.o \
+      -c /opt/gtest/gtest-1.6.0/samples/sample1_unittest.cc",
+
+},
+
+];
+
+//------------------------------------------------------------------------------
+
+GTEST_COMPILE_sample01_SHARED_DEBUG = [
+
+{
+
+   "current_directory":
+      "/opt/gtest/gtest-1.6.0-build-cmake-gui-makefiles-shared-debug",
+
+   "source_files":
+      "/opt/gtest/gtest-1.6.0/samples/sample1_unittest.cc"
+
+   "compile_link_commands":
+      "/usr/bin/c++ \
+         -Wall -Wextra -O0 -gdwarf-2 \
+         -I/opt/gtest/gtest-1.6.0 \
+         -I/opt/gtest/gtest-1.6.0/include \
+         -DGTEST_LINKED_AS_SHARED_LIBRARY=1 \
+         -DGTEST_HAS_PTHREAD=1 \
+         -o CMakeFiles/sample1_unittest.dir/samples/sample1_unittest.cc.o \
+      -c /opt/gtest/gtest-1.6.0/samples/sample1_unittest.cc",
+
+},
+
+{
+
+   "current_directory":
+      "/opt/gtest/gtest-1.6.0-build-cmake-gui-makefiles-shared-debug",
+
+   "source_files":
+      "/opt/gtest/gtest-1.6.0/samples/sample1.cc"
+
+   "compile_link_commands":
+      "/usr/bin/c++ \
+         -Wall -Wextra -O0 -gdwarf-2 \
+         -I/opt/gtest/gtest-1.6.0 \
+         -I/opt/gtest/gtest-1.6.0/include \
+         -DGTEST_LINKED_AS_SHARED_LIBRARY=1 \
+         -DGTEST_HAS_PTHREAD=1 \
+         -o CMakeFiles/sample1_unittest.dir/samples/sample1.cc.o \
+      -c /opt/gtest/gtest-1.6.0/samples/sample1.cc",
+
+},
+
+];
+
+//------------------------------------------------------------------------------
+
+GTEST_COMPILE_sample10_STATIC_DEBUG = [
+
+{
+
+   "current_directory":
+      "/opt/gtest/gtest-1.6.0-build-cmake-gui-makefiles-static-debug",
+
+   "source_files":
+      "/opt/gtest/gtest-1.6.0/samples/sample10_unittest.cc"
+
+   "compile_link_commands":
+      "/usr/bin/c++ \
+         -Wall -Wextra -O0 -gdwarf-2 \
+         -I/opt/gtest/gtest-1.6.0 \
+         -I/opt/gtest/gtest-1.6.0/include \
+         -DGTEST_HAS_PTHREAD=1 \
+         -o CMakeFiles/sample10_unittest.dir/samples/sample10_unittest.cc.o \
+      -c /opt/gtest/gtest-1.6.0/samples/sample10_unittest.cc",
+
+},
+
+];
+
+//------------------------------------------------------------------------------
+
+GTEST_COMPILE_sample10_SHARED_DEBUG = [
+
+{
+
+   "current_directory":
+      "/opt/gtest/gtest-1.6.0-build-cmake-gui-makefiles-shared-debug",
+
+   "source_files":
+      "/opt/gtest/gtest-1.6.0/samples/sample10_unittest.cc"
+
+   "compile_link_commands":
+      "/usr/bin/c++ \
+         -Wall -Wextra -O0 -gdwarf-2 \
+         -I/opt/gtest/gtest-1.6.0 \
+         -I/opt/gtest/gtest-1.6.0/include \
+         -DGTEST_LINKED_AS_SHARED_LIBRARY=1 \
+         -DGTEST_HAS_PTHREAD=1 \
+         -o CMakeFiles/sample10_unittest.dir/samples/sample10_unittest.cc.o \
+      -c /opt/gtest/gtest-1.6.0/samples/sample10_unittest.cc",
+
+},
+
+];
+
+//------------------------------------------------------------------------------
