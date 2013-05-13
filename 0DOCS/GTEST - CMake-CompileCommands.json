@@ -1,0 +1,362 @@
+[
+{
+  "directory": "/opt/gtest/googletest-read-only/build",
+  "command": "/opt/local/bin/g++-mp-4.7   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_EXPORTS -Wall -Wextra -ggdb -O0 -DDEBUG -g -fPIC -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /opt/gtest/googletest-read-only/src/gtest-all.cc",
+  "file": "/opt/gtest/googletest-read-only/src/gtest-all.cc"
+},
+{
+  "directory": "/opt/gtest/googletest-read-only/build",
+  "command": "/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -DGTEST_ENABLE_CATCH_EXCEPTIONS_=1 -o CMakeFiles/gtest-death-test_ex_catch_test.dir/test/gtest-death-test_ex_test.cc.o -c /opt/gtest/googletest-read-only/test/gtest-death-test_ex_test.cc",
+  "file": "/opt/gtest/googletest-read-only/test/gtest-death-test_ex_test.cc"
+},
+{
+  "directory": "/opt/gtest/googletest-read-only/build",
+  "command": "/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -DGTEST_ENABLE_CATCH_EXCEPTIONS_=0 -o CMakeFiles/gtest-death-test_ex_nocatch_test.dir/test/gtest-death-test_ex_test.cc.o -c /opt/gtest/googletest-read-only/test/gtest-death-test_ex_test.cc",
+  "file": "/opt/gtest/googletest-read-only/test/gtest-death-test_ex_test.cc"
+},
+{
+  "directory": "/opt/gtest/googletest-read-only/build",
+  "command": "/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest-death-test_test.dir/test/gtest-death-test_test.cc.o -c /opt/gtest/googletest-read-only/test/gtest-death-test_test.cc",
+  "file": "/opt/gtest/googletest-read-only/test/gtest-death-test_test.cc"
+},
+{
+  "directory": "/opt/gtest/googletest-read-only/build",
+  "command": "/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest-filepath_test.dir/test/gtest-filepath_test.cc.o -c /opt/gtest/googletest-read-only/test/gtest-filepath_test.cc",
+  "file": "/opt/gtest/googletest-read-only/test/gtest-filepath_test.cc"
+},
+{
+  "directory": "/opt/gtest/googletest-read-only/build",
+  "command": "/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest-linked_ptr_test.dir/test/gtest-linked_ptr_test.cc.o -c /opt/gtest/googletest-read-only/test/gtest-linked_ptr_test.cc",
+  "file": "/opt/gtest/googletest-read-only/test/gtest-linked_ptr_test.cc"
+},
+{
+  "directory": "/opt/gtest/googletest-read-only/build",
+  "command": "/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest-listener_test.dir/test/gtest-listener_test.cc.o -c /opt/gtest/googletest-read-only/test/gtest-listener_test.cc",
+  "file": "/opt/gtest/googletest-read-only/test/gtest-listener_test.cc"
+},
+{
+  "directory": "/opt/gtest/googletest-read-only/build",
+  "command": "/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest-message_test.dir/test/gtest-message_test.cc.o -c /opt/gtest/googletest-read-only/test/gtest-message_test.cc",
+  "file": "/opt/gtest/googletest-read-only/test/gtest-message_test.cc"
+},
+{
+  "directory": "/opt/gtest/googletest-read-only/build",
+  "command": "/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest-options_test.dir/test/gtest-options_test.cc.o -c /opt/gtest/googletest-read-only/test/gtest-options_test.cc",
+  "file": "/opt/gtest/googletest-read-only/test/gtest-options_test.cc"
+},
+{
+  "directory": "/opt/gtest/googletest-read-only/build",
+  "command": "/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest-param-test_test.dir/test/gtest-param-test_test.cc.o -c /opt/gtest/googletest-read-only/test/gtest-param-test_test.cc",
+  "file": "/opt/gtest/googletest-read-only/test/gtest-param-test_test.cc"
+},
+{
+  "directory": "/opt/gtest/googletest-read-only/build",
+  "command": "/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest-param-test_test.dir/test/gtest-param-test2_test.cc.o -c /opt/gtest/googletest-read-only/test/gtest-param-test2_test.cc",
+  "file": "/opt/gtest/googletest-read-only/test/gtest-param-test2_test.cc"
+},
+{
+  "directory": "/opt/gtest/googletest-read-only/build",
+  "command": "/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest-port_test.dir/test/gtest-port_test.cc.o -c /opt/gtest/googletest-read-only/test/gtest-port_test.cc",
+  "file": "/opt/gtest/googletest-read-only/test/gtest-port_test.cc"
+},
+{
+  "directory": "/opt/gtest/googletest-read-only/build",
+  "command": "/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest-printers_test.dir/test/gtest-printers_test.cc.o -c /opt/gtest/googletest-read-only/test/gtest-printers_test.cc",
+  "file": "/opt/gtest/googletest-read-only/test/gtest-printers_test.cc"
+},
+{
+  "directory": "/opt/gtest/googletest-read-only/build",
+  "command": "/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest-test-part_test.dir/test/gtest-test-part_test.cc.o -c /opt/gtest/googletest-read-only/test/gtest-test-part_test.cc",
+  "file": "/opt/gtest/googletest-read-only/test/gtest-test-part_test.cc"
+},
+{
+  "directory": "/opt/gtest/googletest-read-only/build",
+  "command": "/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -DGTEST_USE_OWN_TR1_TUPLE=1 -o CMakeFiles/gtest-tuple_test.dir/test/gtest-tuple_test.cc.o -c /opt/gtest/googletest-read-only/test/gtest-tuple_test.cc",
+  "file": "/opt/gtest/googletest-read-only/test/gtest-tuple_test.cc"
+},
+{
+  "directory": "/opt/gtest/googletest-read-only/build",
+  "command": "/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest-typed-test_test.dir/test/gtest-typed-test_test.cc.o -c /opt/gtest/googletest-read-only/test/gtest-typed-test_test.cc",
+  "file": "/opt/gtest/googletest-read-only/test/gtest-typed-test_test.cc"
+},
+{
+  "directory": "/opt/gtest/googletest-read-only/build",
+  "command": "/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest-typed-test_test.dir/test/gtest-typed-test2_test.cc.o -c /opt/gtest/googletest-read-only/test/gtest-typed-test2_test.cc",
+  "file": "/opt/gtest/googletest-read-only/test/gtest-typed-test2_test.cc"
+},
+{
+  "directory": "/opt/gtest/googletest-read-only/build",
+  "command": "/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest-unittest-api_test.dir/test/gtest-unittest-api_test.cc.o -c /opt/gtest/googletest-read-only/test/gtest-unittest-api_test.cc",
+  "file": "/opt/gtest/googletest-read-only/test/gtest-unittest-api_test.cc"
+},
+{
+  "directory": "/opt/gtest/googletest-read-only/build",
+  "command": "/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest_break_on_failure_unittest_.dir/test/gtest_break_on_failure_unittest_.cc.o -c /opt/gtest/googletest-read-only/test/gtest_break_on_failure_unittest_.cc",
+  "file": "/opt/gtest/googletest-read-only/test/gtest_break_on_failure_unittest_.cc"
+},
+{
+  "directory": "/opt/gtest/googletest-read-only/build",
+  "command": "/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest_catch_exceptions_ex_test_.dir/test/gtest_catch_exceptions_test_.cc.o -c /opt/gtest/googletest-read-only/test/gtest_catch_exceptions_test_.cc",
+  "file": "/opt/gtest/googletest-read-only/test/gtest_catch_exceptions_test_.cc"
+},
+{
+  "directory": "/opt/gtest/googletest-read-only/build",
+  "command": "/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fno-exceptions -o CMakeFiles/gtest_catch_exceptions_no_ex_test_.dir/test/gtest_catch_exceptions_test_.cc.o -c /opt/gtest/googletest-read-only/test/gtest_catch_exceptions_test_.cc",
+  "file": "/opt/gtest/googletest-read-only/test/gtest_catch_exceptions_test_.cc"
+},
+{
+  "directory": "/opt/gtest/googletest-read-only/build",
+  "command": "/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest_color_test_.dir/test/gtest_color_test_.cc.o -c /opt/gtest/googletest-read-only/test/gtest_color_test_.cc",
+  "file": "/opt/gtest/googletest-read-only/test/gtest_color_test_.cc"
+},
+{
+  "directory": "/opt/gtest/googletest-read-only/build",
+  "command": "/opt/local/bin/g++-mp-4.7   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_dll_EXPORTS -Wall -Wextra -ggdb -O0 -DDEBUG -g -fPIC -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest_dll.dir/src/gtest-all.cc.o -c /opt/gtest/googletest-read-only/src/gtest-all.cc",
+  "file": "/opt/gtest/googletest-read-only/src/gtest-all.cc"
+},
+{
+  "directory": "/opt/gtest/googletest-read-only/build",
+  "command": "/opt/local/bin/g++-mp-4.7   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_dll_EXPORTS -Wall -Wextra -ggdb -O0 -DDEBUG -g -fPIC -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest_dll.dir/src/gtest_main.cc.o -c /opt/gtest/googletest-read-only/src/gtest_main.cc",
+  "file": "/opt/gtest/googletest-read-only/src/gtest_main.cc"
+},
+{
+  "directory": "/opt/gtest/googletest-read-only/build",
+  "command": "/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest_dll_test_.dir/test/gtest_all_test.cc.o -c /opt/gtest/googletest-read-only/test/gtest_all_test.cc",
+  "file": "/opt/gtest/googletest-read-only/test/gtest_all_test.cc"
+},
+{
+  "directory": "/opt/gtest/googletest-read-only/build",
+  "command": "/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest_env_var_test_.dir/test/gtest_env_var_test_.cc.o -c /opt/gtest/googletest-read-only/test/gtest_env_var_test_.cc",
+  "file": "/opt/gtest/googletest-read-only/test/gtest_env_var_test_.cc"
+},
+{
+  "directory": "/opt/gtest/googletest-read-only/build",
+  "command": "/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest_environment_test.dir/test/gtest_environment_test.cc.o -c /opt/gtest/googletest-read-only/test/gtest_environment_test.cc",
+  "file": "/opt/gtest/googletest-read-only/test/gtest_environment_test.cc"
+},
+{
+  "directory": "/opt/gtest/googletest-read-only/build",
+  "command": "/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest_filter_unittest_.dir/test/gtest_filter_unittest_.cc.o -c /opt/gtest/googletest-read-only/test/gtest_filter_unittest_.cc",
+  "file": "/opt/gtest/googletest-read-only/test/gtest_filter_unittest_.cc"
+},
+{
+  "directory": "/opt/gtest/googletest-read-only/build",
+  "command": "/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest_help_test_.dir/test/gtest_help_test_.cc.o -c /opt/gtest/googletest-read-only/test/gtest_help_test_.cc",
+  "file": "/opt/gtest/googletest-read-only/test/gtest_help_test_.cc"
+},
+{
+  "directory": "/opt/gtest/googletest-read-only/build",
+  "command": "/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest_list_tests_unittest_.dir/test/gtest_list_tests_unittest_.cc.o -c /opt/gtest/googletest-read-only/test/gtest_list_tests_unittest_.cc",
+  "file": "/opt/gtest/googletest-read-only/test/gtest_list_tests_unittest_.cc"
+},
+{
+  "directory": "/opt/gtest/googletest-read-only/build",
+  "command": "/opt/local/bin/g++-mp-4.7   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_main_EXPORTS -Wall -Wextra -ggdb -O0 -DDEBUG -g -fPIC -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /opt/gtest/googletest-read-only/src/gtest_main.cc",
+  "file": "/opt/gtest/googletest-read-only/src/gtest_main.cc"
+},
+{
+  "directory": "/opt/gtest/googletest-read-only/build",
+  "command": "/opt/local/bin/g++-mp-4.7   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_main_no_exception_EXPORTS -Wall -Wextra -ggdb -O0 -DDEBUG -g -fPIC -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fno-exceptions -o CMakeFiles/gtest_main_no_exception.dir/src/gtest-all.cc.o -c /opt/gtest/googletest-read-only/src/gtest-all.cc",
+  "file": "/opt/gtest/googletest-read-only/src/gtest-all.cc"
+},
+{
+  "directory": "/opt/gtest/googletest-read-only/build",
+  "command": "/opt/local/bin/g++-mp-4.7   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_main_no_exception_EXPORTS -Wall -Wextra -ggdb -O0 -DDEBUG -g -fPIC -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fno-exceptions -o CMakeFiles/gtest_main_no_exception.dir/src/gtest_main.cc.o -c /opt/gtest/googletest-read-only/src/gtest_main.cc",
+  "file": "/opt/gtest/googletest-read-only/src/gtest_main.cc"
+},
+{
+  "directory": "/opt/gtest/googletest-read-only/build",
+  "command": "/opt/local/bin/g++-mp-4.7   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_main_no_rtti_EXPORTS -Wall -Wextra -ggdb -O0 -DDEBUG -g -fPIC -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -fno-rtti -DGTEST_HAS_RTTI=0 -o CMakeFiles/gtest_main_no_rtti.dir/src/gtest-all.cc.o -c /opt/gtest/googletest-read-only/src/gtest-all.cc",
+  "file": "/opt/gtest/googletest-read-only/src/gtest-all.cc"
+},
+{
+  "directory": "/opt/gtest/googletest-read-only/build",
+  "command": "/opt/local/bin/g++-mp-4.7   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_main_no_rtti_EXPORTS -Wall -Wextra -ggdb -O0 -DDEBUG -g -fPIC -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -fno-rtti -DGTEST_HAS_RTTI=0 -o CMakeFiles/gtest_main_no_rtti.dir/src/gtest_main.cc.o -c /opt/gtest/googletest-read-only/src/gtest_main.cc",
+  "file": "/opt/gtest/googletest-read-only/src/gtest_main.cc"
+},
+{
+  "directory": "/opt/gtest/googletest-read-only/build",
+  "command": "/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest_main_unittest.dir/test/gtest_main_unittest.cc.o -c /opt/gtest/googletest-read-only/test/gtest_main_unittest.cc",
+  "file": "/opt/gtest/googletest-read-only/test/gtest_main_unittest.cc"
+},
+{
+  "directory": "/opt/gtest/googletest-read-only/build",
+  "command": "/opt/local/bin/g++-mp-4.7   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_main_use_own_tuple_EXPORTS -Wall -Wextra -ggdb -O0 -DDEBUG -g -fPIC -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -DGTEST_USE_OWN_TR1_TUPLE=1 -o CMakeFiles/gtest_main_use_own_tuple.dir/src/gtest-all.cc.o -c /opt/gtest/googletest-read-only/src/gtest-all.cc",
+  "file": "/opt/gtest/googletest-read-only/src/gtest-all.cc"
+},
+{
+  "directory": "/opt/gtest/googletest-read-only/build",
+  "command": "/opt/local/bin/g++-mp-4.7   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_main_use_own_tuple_EXPORTS -Wall -Wextra -ggdb -O0 -DDEBUG -g -fPIC -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -DGTEST_USE_OWN_TR1_TUPLE=1 -o CMakeFiles/gtest_main_use_own_tuple.dir/src/gtest_main.cc.o -c /opt/gtest/googletest-read-only/src/gtest_main.cc",
+  "file": "/opt/gtest/googletest-read-only/src/gtest_main.cc"
+},
+{
+  "directory": "/opt/gtest/googletest-read-only/build",
+  "command": "/opt/local/bin/g++-mp-4.7   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_no_exception_EXPORTS -Wall -Wextra -ggdb -O0 -DDEBUG -g -fPIC -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fno-exceptions -o CMakeFiles/gtest_no_exception.dir/src/gtest-all.cc.o -c /opt/gtest/googletest-read-only/src/gtest-all.cc",
+  "file": "/opt/gtest/googletest-read-only/src/gtest-all.cc"
+},
+{
+  "directory": "/opt/gtest/googletest-read-only/build",
+  "command": "/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -fno-rtti -DGTEST_HAS_RTTI=0 -o CMakeFiles/gtest_no_rtti_unittest.dir/test/gtest_unittest.cc.o -c /opt/gtest/googletest-read-only/test/gtest_unittest.cc",
+  "file": "/opt/gtest/googletest-read-only/test/gtest_unittest.cc"
+},
+{
+  "directory": "/opt/gtest/googletest-read-only/build",
+  "command": "/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest_no_test_unittest.dir/test/gtest_no_test_unittest.cc.o -c /opt/gtest/googletest-read-only/test/gtest_no_test_unittest.cc",
+  "file": "/opt/gtest/googletest-read-only/test/gtest_no_test_unittest.cc"
+},
+{
+  "directory": "/opt/gtest/googletest-read-only/build",
+  "command": "/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest_output_test_.dir/test/gtest_output_test_.cc.o -c /opt/gtest/googletest-read-only/test/gtest_output_test_.cc",
+  "file": "/opt/gtest/googletest-read-only/test/gtest_output_test_.cc"
+},
+{
+  "directory": "/opt/gtest/googletest-read-only/build",
+  "command": "/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest_pred_impl_unittest.dir/test/gtest_pred_impl_unittest.cc.o -c /opt/gtest/googletest-read-only/test/gtest_pred_impl_unittest.cc",
+  "file": "/opt/gtest/googletest-read-only/test/gtest_pred_impl_unittest.cc"
+},
+{
+  "directory": "/opt/gtest/googletest-read-only/build",
+  "command": "/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest_prod_test.dir/test/gtest_prod_test.cc.o -c /opt/gtest/googletest-read-only/test/gtest_prod_test.cc",
+  "file": "/opt/gtest/googletest-read-only/test/gtest_prod_test.cc"
+},
+{
+  "directory": "/opt/gtest/googletest-read-only/build",
+  "command": "/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest_prod_test.dir/test/production.cc.o -c /opt/gtest/googletest-read-only/test/production.cc",
+  "file": "/opt/gtest/googletest-read-only/test/production.cc"
+},
+{
+  "directory": "/opt/gtest/googletest-read-only/build",
+  "command": "/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest_repeat_test.dir/test/gtest_repeat_test.cc.o -c /opt/gtest/googletest-read-only/test/gtest_repeat_test.cc",
+  "file": "/opt/gtest/googletest-read-only/test/gtest_repeat_test.cc"
+},
+{
+  "directory": "/opt/gtest/googletest-read-only/build",
+  "command": "/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest_shuffle_test_.dir/test/gtest_shuffle_test_.cc.o -c /opt/gtest/googletest-read-only/test/gtest_shuffle_test_.cc",
+  "file": "/opt/gtest/googletest-read-only/test/gtest_shuffle_test_.cc"
+},
+{
+  "directory": "/opt/gtest/googletest-read-only/build",
+  "command": "/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest_sole_header_test.dir/test/gtest_sole_header_test.cc.o -c /opt/gtest/googletest-read-only/test/gtest_sole_header_test.cc",
+  "file": "/opt/gtest/googletest-read-only/test/gtest_sole_header_test.cc"
+},
+{
+  "directory": "/opt/gtest/googletest-read-only/build",
+  "command": "/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest_stress_test.dir/test/gtest_stress_test.cc.o -c /opt/gtest/googletest-read-only/test/gtest_stress_test.cc",
+  "file": "/opt/gtest/googletest-read-only/test/gtest_stress_test.cc"
+},
+{
+  "directory": "/opt/gtest/googletest-read-only/build",
+  "command": "/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest_throw_on_failure_ex_test.dir/test/gtest_throw_on_failure_ex_test.cc.o -c /opt/gtest/googletest-read-only/test/gtest_throw_on_failure_ex_test.cc",
+  "file": "/opt/gtest/googletest-read-only/test/gtest_throw_on_failure_ex_test.cc"
+},
+{
+  "directory": "/opt/gtest/googletest-read-only/build",
+  "command": "/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fno-exceptions -o CMakeFiles/gtest_throw_on_failure_test_.dir/test/gtest_throw_on_failure_test_.cc.o -c /opt/gtest/googletest-read-only/test/gtest_throw_on_failure_test_.cc",
+  "file": "/opt/gtest/googletest-read-only/test/gtest_throw_on_failure_test_.cc"
+},
+{
+  "directory": "/opt/gtest/googletest-read-only/build",
+  "command": "/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest_uninitialized_test_.dir/test/gtest_uninitialized_test_.cc.o -c /opt/gtest/googletest-read-only/test/gtest_uninitialized_test_.cc",
+  "file": "/opt/gtest/googletest-read-only/test/gtest_uninitialized_test_.cc"
+},
+{
+  "directory": "/opt/gtest/googletest-read-only/build",
+  "command": "/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest_unittest.dir/test/gtest_unittest.cc.o -c /opt/gtest/googletest-read-only/test/gtest_unittest.cc",
+  "file": "/opt/gtest/googletest-read-only/test/gtest_unittest.cc"
+},
+{
+  "directory": "/opt/gtest/googletest-read-only/build",
+  "command": "/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -DGTEST_USE_OWN_TR1_TUPLE=1 -o CMakeFiles/gtest_use_own_tuple_test.dir/test/gtest-param-test_test.cc.o -c /opt/gtest/googletest-read-only/test/gtest-param-test_test.cc",
+  "file": "/opt/gtest/googletest-read-only/test/gtest-param-test_test.cc"
+},
+{
+  "directory": "/opt/gtest/googletest-read-only/build",
+  "command": "/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -DGTEST_USE_OWN_TR1_TUPLE=1 -o CMakeFiles/gtest_use_own_tuple_test.dir/test/gtest-param-test2_test.cc.o -c /opt/gtest/googletest-read-only/test/gtest-param-test2_test.cc",
+  "file": "/opt/gtest/googletest-read-only/test/gtest-param-test2_test.cc"
+},
+{
+  "directory": "/opt/gtest/googletest-read-only/build",
+  "command": "/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest_xml_outfile1_test_.dir/test/gtest_xml_outfile1_test_.cc.o -c /opt/gtest/googletest-read-only/test/gtest_xml_outfile1_test_.cc",
+  "file": "/opt/gtest/googletest-read-only/test/gtest_xml_outfile1_test_.cc"
+},
+{
+  "directory": "/opt/gtest/googletest-read-only/build",
+  "command": "/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest_xml_outfile2_test_.dir/test/gtest_xml_outfile2_test_.cc.o -c /opt/gtest/googletest-read-only/test/gtest_xml_outfile2_test_.cc",
+  "file": "/opt/gtest/googletest-read-only/test/gtest_xml_outfile2_test_.cc"
+},
+{
+  "directory": "/opt/gtest/googletest-read-only/build",
+  "command": "/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest_xml_output_unittest_.dir/test/gtest_xml_output_unittest_.cc.o -c /opt/gtest/googletest-read-only/test/gtest_xml_output_unittest_.cc",
+  "file": "/opt/gtest/googletest-read-only/test/gtest_xml_output_unittest_.cc"
+},
+{
+  "directory": "/opt/gtest/googletest-read-only/build",
+  "command": "/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/sample10_unittest.dir/samples/sample10_unittest.cc.o -c /opt/gtest/googletest-read-only/samples/sample10_unittest.cc",
+  "file": "/opt/gtest/googletest-read-only/samples/sample10_unittest.cc"
+},
+{
+  "directory": "/opt/gtest/googletest-read-only/build",
+  "command": "/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/sample1_unittest.dir/samples/sample1_unittest.cc.o -c /opt/gtest/googletest-read-only/samples/sample1_unittest.cc",
+  "file": "/opt/gtest/googletest-read-only/samples/sample1_unittest.cc"
+},
+{
+  "directory": "/opt/gtest/googletest-read-only/build",
+  "command": "/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/sample1_unittest.dir/samples/sample1.cc.o -c /opt/gtest/googletest-read-only/samples/sample1.cc",
+  "file": "/opt/gtest/googletest-read-only/samples/sample1.cc"
+},
+{
+  "directory": "/opt/gtest/googletest-read-only/build",
+  "command": "/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/sample2_unittest.dir/samples/sample2_unittest.cc.o -c /opt/gtest/googletest-read-only/samples/sample2_unittest.cc",
+  "file": "/opt/gtest/googletest-read-only/samples/sample2_unittest.cc"
+},
+{
+  "directory": "/opt/gtest/googletest-read-only/build",
+  "command": "/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/sample2_unittest.dir/samples/sample2.cc.o -c /opt/gtest/googletest-read-only/samples/sample2.cc",
+  "file": "/opt/gtest/googletest-read-only/samples/sample2.cc"
+},
+{
+  "directory": "/opt/gtest/googletest-read-only/build",
+  "command": "/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/sample3_unittest.dir/samples/sample3_unittest.cc.o -c /opt/gtest/googletest-read-only/samples/sample3_unittest.cc",
+  "file": "/opt/gtest/googletest-read-only/samples/sample3_unittest.cc"
+},
+{
+  "directory": "/opt/gtest/googletest-read-only/build",
+  "command": "/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/sample4_unittest.dir/samples/sample4_unittest.cc.o -c /opt/gtest/googletest-read-only/samples/sample4_unittest.cc",
+  "file": "/opt/gtest/googletest-read-only/samples/sample4_unittest.cc"
+},
+{
+  "directory": "/opt/gtest/googletest-read-only/build",
+  "command": "/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/sample4_unittest.dir/samples/sample4.cc.o -c /opt/gtest/googletest-read-only/samples/sample4.cc",
+  "file": "/opt/gtest/googletest-read-only/samples/sample4.cc"
+},
+{
+  "directory": "/opt/gtest/googletest-read-only/build",
+  "command": "/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/sample5_unittest.dir/samples/sample5_unittest.cc.o -c /opt/gtest/googletest-read-only/samples/sample5_unittest.cc",
+  "file": "/opt/gtest/googletest-read-only/samples/sample5_unittest.cc"
+},
+{
+  "directory": "/opt/gtest/googletest-read-only/build",
+  "command": "/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/sample5_unittest.dir/samples/sample1.cc.o -c /opt/gtest/googletest-read-only/samples/sample1.cc",
+  "file": "/opt/gtest/googletest-read-only/samples/sample1.cc"
+},
+{
+  "directory": "/opt/gtest/googletest-read-only/build",
+  "command": "/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/sample6_unittest.dir/samples/sample6_unittest.cc.o -c /opt/gtest/googletest-read-only/samples/sample6_unittest.cc",
+  "file": "/opt/gtest/googletest-read-only/samples/sample6_unittest.cc"
+},
+{
+  "directory": "/opt/gtest/googletest-read-only/build",
+  "command": "/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/sample7_unittest.dir/samples/sample7_unittest.cc.o -c /opt/gtest/googletest-read-only/samples/sample7_unittest.cc",
+  "file": "/opt/gtest/googletest-read-only/samples/sample7_unittest.cc"
+},
+{
+  "directory": "/opt/gtest/googletest-read-only/build",
+  "command": "/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/sample8_unittest.dir/samples/sample8_unittest.cc.o -c /opt/gtest/googletest-read-only/samples/sample8_unittest.cc",
+  "file": "/opt/gtest/googletest-read-only/samples/sample8_unittest.cc"
+},
+{
+  "directory": "/opt/gtest/googletest-read-only/build",
+  "command": "/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/sample9_unittest.dir/samples/sample9_unittest.cc.o -c /opt/gtest/googletest-read-only/samples/sample9_unittest.cc",
+  "file": "/opt/gtest/googletest-read-only/samples/sample9_unittest.cc"
+}
+]

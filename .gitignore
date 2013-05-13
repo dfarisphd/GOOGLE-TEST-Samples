@@ -1,3 +1,9 @@
+!.gitignore
+
+.DS*
+.Trash*
+.trash*
+
 # Compiled Object files
 *.slo
 *.lo

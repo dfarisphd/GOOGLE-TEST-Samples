@@ -1,0 +1,260 @@
+
+## >>> GTEST SAMPLE (fubar := ["sample10_unittest"]) ... TEST BEGIN
+Run this program with --check_for_leaks to enable custom leak checking in the tests.
+[==========] Running 2 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 2 tests from ListenersTest
+[ RUN      ] ListenersTest.DoesNotLeak
+[       OK ] ListenersTest.DoesNotLeak (0 ms)
+[ RUN      ] ListenersTest.LeaksWater
+[       OK ] ListenersTest.LeaksWater (0 ms)
+[----------] 2 tests from ListenersTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test case ran. (1 ms total)
+[  PASSED  ] 2 tests.
+## <<< GTEST SAMPLE (fubar := ["sample10_unittest"]) ... DONE
+
+
+## >>> GTEST SAMPLE (fubar := ["sample1_unittest"]) ... TEST BEGIN
+Running main() from gtest_main.cc
+[==========] Running 6 tests from 2 test cases.
+[----------] Global test environment set-up.
+[----------] 3 tests from FactorialTest
+[ RUN      ] FactorialTest.Negative
+[       OK ] FactorialTest.Negative (0 ms)
+[ RUN      ] FactorialTest.Zero
+[       OK ] FactorialTest.Zero (0 ms)
+[ RUN      ] FactorialTest.Positive
+[       OK ] FactorialTest.Positive (0 ms)
+[----------] 3 tests from FactorialTest (0 ms total)
+
+[----------] 3 tests from IsPrimeTest
+[ RUN      ] IsPrimeTest.Negative
+[       OK ] IsPrimeTest.Negative (0 ms)
+[ RUN      ] IsPrimeTest.Trivial
+[       OK ] IsPrimeTest.Trivial (0 ms)
+[ RUN      ] IsPrimeTest.Positive
+[       OK ] IsPrimeTest.Positive (0 ms)
+[----------] 3 tests from IsPrimeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 6 tests from 2 test cases ran. (0 ms total)
+[  PASSED  ] 6 tests.
+## <<< GTEST SAMPLE (fubar := ["sample1_unittest"]) ... DONE
+
+
+## >>> GTEST SAMPLE (fubar := ["sample2_unittest"]) ... TEST BEGIN
+Running main() from gtest_main.cc
+[==========] Running 4 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 4 tests from MyString
+[ RUN      ] MyString.DefaultConstructor
+[       OK ] MyString.DefaultConstructor (0 ms)
+[ RUN      ] MyString.ConstructorFromCString
+[       OK ] MyString.ConstructorFromCString (0 ms)
+[ RUN      ] MyString.CopyConstructor
+[       OK ] MyString.CopyConstructor (0 ms)
+[ RUN      ] MyString.Set
+[       OK ] MyString.Set (0 ms)
+[----------] 4 tests from MyString (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test case ran. (0 ms total)
+[  PASSED  ] 4 tests.
+## <<< GTEST SAMPLE (fubar := ["sample2_unittest"]) ... DONE
+
+
+## >>> GTEST SAMPLE (fubar := ["sample3_unittest"]) ... TEST BEGIN
+Running main() from gtest_main.cc
+[==========] Running 3 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 3 tests from QueueTest
+[ RUN      ] QueueTest.DefaultConstructor
+[       OK ] QueueTest.DefaultConstructor (0 ms)
+[ RUN      ] QueueTest.Dequeue
+[       OK ] QueueTest.Dequeue (0 ms)
+[ RUN      ] QueueTest.Map
+[       OK ] QueueTest.Map (0 ms)
+[----------] 3 tests from QueueTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 1 test case ran. (1 ms total)
+[  PASSED  ] 3 tests.
+## <<< GTEST SAMPLE (fubar := ["sample3_unittest"]) ... DONE
+
+
+## >>> GTEST SAMPLE (fubar := ["sample4_unittest"]) ... TEST BEGIN
+Running main() from gtest_main.cc
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from Counter
+[ RUN      ] Counter.Increment
+[       OK ] Counter.Increment (0 ms)
+[----------] 1 test from Counter (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+## <<< GTEST SAMPLE (fubar := ["sample4_unittest"]) ... DONE
+
+
+## >>> GTEST SAMPLE (fubar := ["sample5_unittest"]) ... TEST BEGIN
+Running main() from gtest_main.cc
+[==========] Running 4 tests from 2 test cases.
+[----------] Global test environment set-up.
+[----------] 2 tests from IntegerFunctionTest
+[ RUN      ] IntegerFunctionTest.Factorial
+[       OK ] IntegerFunctionTest.Factorial (0 ms)
+[ RUN      ] IntegerFunctionTest.IsPrime
+[       OK ] IntegerFunctionTest.IsPrime (0 ms)
+[----------] 2 tests from IntegerFunctionTest (0 ms total)
+
+[----------] 2 tests from QueueTest
+[ RUN      ] QueueTest.DefaultConstructor
+[       OK ] QueueTest.DefaultConstructor (0 ms)
+[ RUN      ] QueueTest.Dequeue
+[       OK ] QueueTest.Dequeue (0 ms)
+[----------] 2 tests from QueueTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 2 test cases ran. (0 ms total)
+[  PASSED  ] 4 tests.
+## <<< GTEST SAMPLE (fubar := ["sample5_unittest"]) ... DONE
+
+
+## >>> GTEST SAMPLE (fubar := ["sample6_unittest"]) ... TEST BEGIN
+Running main() from gtest_main.cc
+[==========] Running 12 tests from 4 test cases.
+[----------] Global test environment set-up.
+[----------] 3 tests from PrimeTableTest/0, where TypeParam = OnTheFlyPrimeTable
+[ RUN      ] PrimeTableTest/0.ReturnsFalseForNonPrimes
+[       OK ] PrimeTableTest/0.ReturnsFalseForNonPrimes (0 ms)
+[ RUN      ] PrimeTableTest/0.ReturnsTrueForPrimes
+[       OK ] PrimeTableTest/0.ReturnsTrueForPrimes (0 ms)
+[ RUN      ] PrimeTableTest/0.CanGetNextPrime
+[       OK ] PrimeTableTest/0.CanGetNextPrime (0 ms)
+[----------] 3 tests from PrimeTableTest/0 (0 ms total)
+
+[----------] 3 tests from PrimeTableTest/1, where TypeParam = PreCalculatedPrimeTable
+[ RUN      ] PrimeTableTest/1.ReturnsFalseForNonPrimes
+[       OK ] PrimeTableTest/1.ReturnsFalseForNonPrimes (0 ms)
+[ RUN      ] PrimeTableTest/1.ReturnsTrueForPrimes
+[       OK ] PrimeTableTest/1.ReturnsTrueForPrimes (0 ms)
+[ RUN      ] PrimeTableTest/1.CanGetNextPrime
+[       OK ] PrimeTableTest/1.CanGetNextPrime (0 ms)
+[----------] 3 tests from PrimeTableTest/1 (0 ms total)
+
+[----------] 3 tests from OnTheFlyAndPreCalculated/PrimeTableTest2/0, where TypeParam = OnTheFlyPrimeTable
+[ RUN      ] OnTheFlyAndPreCalculated/PrimeTableTest2/0.ReturnsFalseForNonPrimes
+[       OK ] OnTheFlyAndPreCalculated/PrimeTableTest2/0.ReturnsFalseForNonPrimes (0 ms)
+[ RUN      ] OnTheFlyAndPreCalculated/PrimeTableTest2/0.ReturnsTrueForPrimes
+[       OK ] OnTheFlyAndPreCalculated/PrimeTableTest2/0.ReturnsTrueForPrimes (0 ms)
+[ RUN      ] OnTheFlyAndPreCalculated/PrimeTableTest2/0.CanGetNextPrime
+[       OK ] OnTheFlyAndPreCalculated/PrimeTableTest2/0.CanGetNextPrime (0 ms)
+[----------] 3 tests from OnTheFlyAndPreCalculated/PrimeTableTest2/0 (1 ms total)
+
+[----------] 3 tests from OnTheFlyAndPreCalculated/PrimeTableTest2/1, where TypeParam = PreCalculatedPrimeTable
+[ RUN      ] OnTheFlyAndPreCalculated/PrimeTableTest2/1.ReturnsFalseForNonPrimes
+[       OK ] OnTheFlyAndPreCalculated/PrimeTableTest2/1.ReturnsFalseForNonPrimes (0 ms)
+[ RUN      ] OnTheFlyAndPreCalculated/PrimeTableTest2/1.ReturnsTrueForPrimes
+[       OK ] OnTheFlyAndPreCalculated/PrimeTableTest2/1.ReturnsTrueForPrimes (0 ms)
+[ RUN      ] OnTheFlyAndPreCalculated/PrimeTableTest2/1.CanGetNextPrime
+[       OK ] OnTheFlyAndPreCalculated/PrimeTableTest2/1.CanGetNextPrime (0 ms)
+[----------] 3 tests from OnTheFlyAndPreCalculated/PrimeTableTest2/1 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 12 tests from 4 test cases ran. (1 ms total)
+[  PASSED  ] 12 tests.
+## <<< GTEST SAMPLE (fubar := ["sample6_unittest"]) ... DONE
+
+
+## >>> GTEST SAMPLE (fubar := ["sample7_unittest"]) ... TEST BEGIN
+Running main() from gtest_main.cc
+[==========] Running 6 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 6 tests from OnTheFlyAndPreCalculated/PrimeTableTest
+[ RUN      ] OnTheFlyAndPreCalculated/PrimeTableTest.ReturnsFalseForNonPrimes/0
+[       OK ] OnTheFlyAndPreCalculated/PrimeTableTest.ReturnsFalseForNonPrimes/0 (0 ms)
+[ RUN      ] OnTheFlyAndPreCalculated/PrimeTableTest.ReturnsFalseForNonPrimes/1
+[       OK ] OnTheFlyAndPreCalculated/PrimeTableTest.ReturnsFalseForNonPrimes/1 (0 ms)
+[ RUN      ] OnTheFlyAndPreCalculated/PrimeTableTest.ReturnsTrueForPrimes/0
+[       OK ] OnTheFlyAndPreCalculated/PrimeTableTest.ReturnsTrueForPrimes/0 (0 ms)
+[ RUN      ] OnTheFlyAndPreCalculated/PrimeTableTest.ReturnsTrueForPrimes/1
+[       OK ] OnTheFlyAndPreCalculated/PrimeTableTest.ReturnsTrueForPrimes/1 (0 ms)
+[ RUN      ] OnTheFlyAndPreCalculated/PrimeTableTest.CanGetNextPrime/0
+[       OK ] OnTheFlyAndPreCalculated/PrimeTableTest.CanGetNextPrime/0 (0 ms)
+[ RUN      ] OnTheFlyAndPreCalculated/PrimeTableTest.CanGetNextPrime/1
+[       OK ] OnTheFlyAndPreCalculated/PrimeTableTest.CanGetNextPrime/1 (0 ms)
+[----------] 6 tests from OnTheFlyAndPreCalculated/PrimeTableTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 6 tests from 1 test case ran. (1 ms total)
+[  PASSED  ] 6 tests.
+## <<< GTEST SAMPLE (fubar := ["sample7_unittest"]) ... DONE
+
+
+## >>> GTEST SAMPLE (fubar := ["sample8_unittest"]) ... TEST BEGIN
+Running main() from gtest_main.cc
+[==========] Running 12 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 12 tests from MeaningfulTestParameters/PrimeTableTest
+[ RUN      ] MeaningfulTestParameters/PrimeTableTest.ReturnsFalseForNonPrimes/0
+[       OK ] MeaningfulTestParameters/PrimeTableTest.ReturnsFalseForNonPrimes/0 (0 ms)
+[ RUN      ] MeaningfulTestParameters/PrimeTableTest.ReturnsFalseForNonPrimes/1
+[       OK ] MeaningfulTestParameters/PrimeTableTest.ReturnsFalseForNonPrimes/1 (0 ms)
+[ RUN      ] MeaningfulTestParameters/PrimeTableTest.ReturnsFalseForNonPrimes/2
+[       OK ] MeaningfulTestParameters/PrimeTableTest.ReturnsFalseForNonPrimes/2 (0 ms)
+[ RUN      ] MeaningfulTestParameters/PrimeTableTest.ReturnsFalseForNonPrimes/3
+[       OK ] MeaningfulTestParameters/PrimeTableTest.ReturnsFalseForNonPrimes/3 (0 ms)
+[ RUN      ] MeaningfulTestParameters/PrimeTableTest.ReturnsTrueForPrimes/0
+[       OK ] MeaningfulTestParameters/PrimeTableTest.ReturnsTrueForPrimes/0 (0 ms)
+[ RUN      ] MeaningfulTestParameters/PrimeTableTest.ReturnsTrueForPrimes/1
+[       OK ] MeaningfulTestParameters/PrimeTableTest.ReturnsTrueForPrimes/1 (0 ms)
+[ RUN      ] MeaningfulTestParameters/PrimeTableTest.ReturnsTrueForPrimes/2
+[       OK ] MeaningfulTestParameters/PrimeTableTest.ReturnsTrueForPrimes/2 (0 ms)
+[ RUN      ] MeaningfulTestParameters/PrimeTableTest.ReturnsTrueForPrimes/3
+[       OK ] MeaningfulTestParameters/PrimeTableTest.ReturnsTrueForPrimes/3 (0 ms)
+[ RUN      ] MeaningfulTestParameters/PrimeTableTest.CanGetNextPrime/0
+[       OK ] MeaningfulTestParameters/PrimeTableTest.CanGetNextPrime/0 (0 ms)
+[ RUN      ] MeaningfulTestParameters/PrimeTableTest.CanGetNextPrime/1
+[       OK ] MeaningfulTestParameters/PrimeTableTest.CanGetNextPrime/1 (0 ms)
+[ RUN      ] MeaningfulTestParameters/PrimeTableTest.CanGetNextPrime/2
+[       OK ] MeaningfulTestParameters/PrimeTableTest.CanGetNextPrime/2 (0 ms)
+[ RUN      ] MeaningfulTestParameters/PrimeTableTest.CanGetNextPrime/3
+[       OK ] MeaningfulTestParameters/PrimeTableTest.CanGetNextPrime/3 (0 ms)
+[----------] 12 tests from MeaningfulTestParameters/PrimeTableTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 12 tests from 1 test case ran. (0 ms total)
+[  PASSED  ] 12 tests.
+## <<< GTEST SAMPLE (fubar := ["sample8_unittest"]) ... DONE
+
+
+## >>> GTEST SAMPLE (fubar := ["sample9_unittest"]) ... TEST BEGIN
+Run this program with --terse_output to change the way it prints its output.
+[==========] Running 3 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 3 tests from CustomOutputTest
+[ RUN      ] CustomOutputTest.PrintsMessage
+Printing something from the test body...
+[       OK ] CustomOutputTest.PrintsMessage (0 ms)
+[ RUN      ] CustomOutputTest.Succeeds
+[       OK ] CustomOutputTest.Succeeds (0 ms)
+[ RUN      ] CustomOutputTest.Fails
+/opt/gtest/googletest-read-only/samples/sample9_unittest.cc:102: Failure
+Value of: 2
+Expected: 1
+This test fails in order to demonstrate alternative failure messages
+[  FAILED  ] CustomOutputTest.Fails (1 ms)
+[----------] 3 tests from CustomOutputTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 1 test case ran. (1 ms total)
+[  PASSED  ] 2 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] CustomOutputTest.Fails
+
+ 1 FAILED TEST
+## <<< GTEST SAMPLE (fubar := ["sample9_unittest"]) ... DONE
+

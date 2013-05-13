@@ -1,0 +1,901 @@
+##==+====1====+====2====+====3====+====4====+====5====+====6====+====7====+====8
+##
+## FILE-NAME := [[ "GTEST-CMake-00-make.out" ]]
+## FILE-PATH := [[ "/opt/gtest/googletest-read-only/build" ]]
+
+##==+====1====+====2====+====3====+====4====+====5====+====6====+====7====+====8
+
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -H/opt/gtest/googletest-read-only -B/opt/gtest/googletest-read-only/build --check-build-system CMakeFiles/Makefile.cmake 0
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_start /opt/gtest/googletest-read-only/build/CMakeFiles /opt/gtest/googletest-read-only/build/CMakeFiles/progress.marks
+make -f CMakeFiles/Makefile2 all
+make -f CMakeFiles/gtest.dir/build.make CMakeFiles/gtest.dir/depend
+cd /opt/gtest/googletest-read-only/build && "/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_depends "Unix Makefiles" /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build/CMakeFiles/gtest.dir/DependInfo.cmake --color=
+make -f CMakeFiles/gtest.dir/build.make CMakeFiles/gtest.dir/build
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles 1
+[  1%] Building CXX object CMakeFiles/gtest.dir/src/gtest-all.cc.o
+/opt/local/bin/g++-mp-4.7   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_EXPORTS -Wall -Wextra -ggdb -O0 -DDEBUG -g -fPIC -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /opt/gtest/googletest-read-only/src/gtest-all.cc
+Linking CXX shared library libgtest.dylib
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/gtest.dir/link.txt --verbose=1
+/opt/local/bin/g++-mp-4.7  -Wall -Wextra -ggdb -O0 -DDEBUG -g -dynamiclib -Wl,-headerpad_max_install_names   -o libgtest.dylib -install_name /opt/gtest/googletest-read-only/build/libgtest.dylib CMakeFiles/gtest.dir/src/gtest-all.cc.o  -L/opt/gtest/googletest-read-only/build/src 
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles  1
+[  1%] Built target gtest
+make -f CMakeFiles/gtest-death-test_ex_catch_test.dir/build.make CMakeFiles/gtest-death-test_ex_catch_test.dir/depend
+cd /opt/gtest/googletest-read-only/build && "/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_depends "Unix Makefiles" /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build/CMakeFiles/gtest-death-test_ex_catch_test.dir/DependInfo.cmake --color=
+make -f CMakeFiles/gtest-death-test_ex_catch_test.dir/build.make CMakeFiles/gtest-death-test_ex_catch_test.dir/build
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles 2
+[  2%] Building CXX object CMakeFiles/gtest-death-test_ex_catch_test.dir/test/gtest-death-test_ex_test.cc.o
+/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -DGTEST_ENABLE_CATCH_EXCEPTIONS_=1 -o CMakeFiles/gtest-death-test_ex_catch_test.dir/test/gtest-death-test_ex_test.cc.o -c /opt/gtest/googletest-read-only/test/gtest-death-test_ex_test.cc
+Linking CXX executable gtest-death-test_ex_catch_test
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/gtest-death-test_ex_catch_test.dir/link.txt --verbose=1
+/opt/local/bin/g++-mp-4.7   -Wall -Wextra -ggdb -O0 -DDEBUG -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/gtest-death-test_ex_catch_test.dir/test/gtest-death-test_ex_test.cc.o  -o gtest-death-test_ex_catch_test  -L/opt/gtest/googletest-read-only/build/src  libgtest.dylib 
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles  2
+[  2%] Built target gtest-death-test_ex_catch_test
+make -f CMakeFiles/gtest-death-test_ex_nocatch_test.dir/build.make CMakeFiles/gtest-death-test_ex_nocatch_test.dir/depend
+cd /opt/gtest/googletest-read-only/build && "/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_depends "Unix Makefiles" /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build/CMakeFiles/gtest-death-test_ex_nocatch_test.dir/DependInfo.cmake --color=
+make -f CMakeFiles/gtest-death-test_ex_nocatch_test.dir/build.make CMakeFiles/gtest-death-test_ex_nocatch_test.dir/build
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles 3
+[  4%] Building CXX object CMakeFiles/gtest-death-test_ex_nocatch_test.dir/test/gtest-death-test_ex_test.cc.o
+/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -DGTEST_ENABLE_CATCH_EXCEPTIONS_=0 -o CMakeFiles/gtest-death-test_ex_nocatch_test.dir/test/gtest-death-test_ex_test.cc.o -c /opt/gtest/googletest-read-only/test/gtest-death-test_ex_test.cc
+Linking CXX executable gtest-death-test_ex_nocatch_test
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/gtest-death-test_ex_nocatch_test.dir/link.txt --verbose=1
+/opt/local/bin/g++-mp-4.7   -Wall -Wextra -ggdb -O0 -DDEBUG -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/gtest-death-test_ex_nocatch_test.dir/test/gtest-death-test_ex_test.cc.o  -o gtest-death-test_ex_nocatch_test  -L/opt/gtest/googletest-read-only/build/src  libgtest.dylib 
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles  3
+[  4%] Built target gtest-death-test_ex_nocatch_test
+make -f CMakeFiles/gtest_main.dir/build.make CMakeFiles/gtest_main.dir/depend
+cd /opt/gtest/googletest-read-only/build && "/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_depends "Unix Makefiles" /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build/CMakeFiles/gtest_main.dir/DependInfo.cmake --color=
+make -f CMakeFiles/gtest_main.dir/build.make CMakeFiles/gtest_main.dir/build
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles 31
+[  5%] Building CXX object CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+/opt/local/bin/g++-mp-4.7   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_main_EXPORTS -Wall -Wextra -ggdb -O0 -DDEBUG -g -fPIC -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /opt/gtest/googletest-read-only/src/gtest_main.cc
+Linking CXX shared library libgtest_main.dylib
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/gtest_main.dir/link.txt --verbose=1
+/opt/local/bin/g++-mp-4.7  -Wall -Wextra -ggdb -O0 -DDEBUG -g -dynamiclib -Wl,-headerpad_max_install_names   -o libgtest_main.dylib -install_name /opt/gtest/googletest-read-only/build/libgtest_main.dylib CMakeFiles/gtest_main.dir/src/gtest_main.cc.o  -L/opt/gtest/googletest-read-only/build/src libgtest.dylib 
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles  31
+[  5%] Built target gtest_main
+make -f CMakeFiles/gtest-death-test_test.dir/build.make CMakeFiles/gtest-death-test_test.dir/depend
+cd /opt/gtest/googletest-read-only/build && "/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_depends "Unix Makefiles" /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build/CMakeFiles/gtest-death-test_test.dir/DependInfo.cmake --color=
+make -f CMakeFiles/gtest-death-test_test.dir/build.make CMakeFiles/gtest-death-test_test.dir/build
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles 4
+[  6%] Building CXX object CMakeFiles/gtest-death-test_test.dir/test/gtest-death-test_test.cc.o
+/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest-death-test_test.dir/test/gtest-death-test_test.cc.o -c /opt/gtest/googletest-read-only/test/gtest-death-test_test.cc
+Linking CXX executable gtest-death-test_test
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/gtest-death-test_test.dir/link.txt --verbose=1
+/opt/local/bin/g++-mp-4.7   -Wall -Wextra -ggdb -O0 -DDEBUG -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/gtest-death-test_test.dir/test/gtest-death-test_test.cc.o  -o gtest-death-test_test  -L/opt/gtest/googletest-read-only/build/src  libgtest_main.dylib libgtest.dylib 
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles  4
+[  6%] Built target gtest-death-test_test
+make -f CMakeFiles/gtest-filepath_test.dir/build.make CMakeFiles/gtest-filepath_test.dir/depend
+cd /opt/gtest/googletest-read-only/build && "/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_depends "Unix Makefiles" /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build/CMakeFiles/gtest-filepath_test.dir/DependInfo.cmake --color=
+make -f CMakeFiles/gtest-filepath_test.dir/build.make CMakeFiles/gtest-filepath_test.dir/build
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles 5
+[  8%] Building CXX object CMakeFiles/gtest-filepath_test.dir/test/gtest-filepath_test.cc.o
+/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest-filepath_test.dir/test/gtest-filepath_test.cc.o -c /opt/gtest/googletest-read-only/test/gtest-filepath_test.cc
+Linking CXX executable gtest-filepath_test
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/gtest-filepath_test.dir/link.txt --verbose=1
+/opt/local/bin/g++-mp-4.7   -Wall -Wextra -ggdb -O0 -DDEBUG -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/gtest-filepath_test.dir/test/gtest-filepath_test.cc.o  -o gtest-filepath_test  -L/opt/gtest/googletest-read-only/build/src  libgtest_main.dylib libgtest.dylib 
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles  5
+[  8%] Built target gtest-filepath_test
+make -f CMakeFiles/gtest-linked_ptr_test.dir/build.make CMakeFiles/gtest-linked_ptr_test.dir/depend
+cd /opt/gtest/googletest-read-only/build && "/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_depends "Unix Makefiles" /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build/CMakeFiles/gtest-linked_ptr_test.dir/DependInfo.cmake --color=
+make -f CMakeFiles/gtest-linked_ptr_test.dir/build.make CMakeFiles/gtest-linked_ptr_test.dir/build
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles 6
+[  9%] Building CXX object CMakeFiles/gtest-linked_ptr_test.dir/test/gtest-linked_ptr_test.cc.o
+/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest-linked_ptr_test.dir/test/gtest-linked_ptr_test.cc.o -c /opt/gtest/googletest-read-only/test/gtest-linked_ptr_test.cc
+Linking CXX executable gtest-linked_ptr_test
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/gtest-linked_ptr_test.dir/link.txt --verbose=1
+/opt/local/bin/g++-mp-4.7   -Wall -Wextra -ggdb -O0 -DDEBUG -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/gtest-linked_ptr_test.dir/test/gtest-linked_ptr_test.cc.o  -o gtest-linked_ptr_test  -L/opt/gtest/googletest-read-only/build/src  libgtest_main.dylib libgtest.dylib 
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles  6
+[  9%] Built target gtest-linked_ptr_test
+make -f CMakeFiles/gtest-listener_test.dir/build.make CMakeFiles/gtest-listener_test.dir/depend
+cd /opt/gtest/googletest-read-only/build && "/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_depends "Unix Makefiles" /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build/CMakeFiles/gtest-listener_test.dir/DependInfo.cmake --color=
+make -f CMakeFiles/gtest-listener_test.dir/build.make CMakeFiles/gtest-listener_test.dir/build
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles 7
+[ 11%] Building CXX object CMakeFiles/gtest-listener_test.dir/test/gtest-listener_test.cc.o
+/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest-listener_test.dir/test/gtest-listener_test.cc.o -c /opt/gtest/googletest-read-only/test/gtest-listener_test.cc
+Linking CXX executable gtest-listener_test
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/gtest-listener_test.dir/link.txt --verbose=1
+/opt/local/bin/g++-mp-4.7   -Wall -Wextra -ggdb -O0 -DDEBUG -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/gtest-listener_test.dir/test/gtest-listener_test.cc.o  -o gtest-listener_test  -L/opt/gtest/googletest-read-only/build/src  libgtest_main.dylib libgtest.dylib 
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles  7
+[ 11%] Built target gtest-listener_test
+make -f CMakeFiles/gtest-message_test.dir/build.make CMakeFiles/gtest-message_test.dir/depend
+cd /opt/gtest/googletest-read-only/build && "/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_depends "Unix Makefiles" /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build/CMakeFiles/gtest-message_test.dir/DependInfo.cmake --color=
+make -f CMakeFiles/gtest-message_test.dir/build.make CMakeFiles/gtest-message_test.dir/build
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles 8
+[ 12%] Building CXX object CMakeFiles/gtest-message_test.dir/test/gtest-message_test.cc.o
+/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest-message_test.dir/test/gtest-message_test.cc.o -c /opt/gtest/googletest-read-only/test/gtest-message_test.cc
+Linking CXX executable gtest-message_test
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/gtest-message_test.dir/link.txt --verbose=1
+/opt/local/bin/g++-mp-4.7   -Wall -Wextra -ggdb -O0 -DDEBUG -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/gtest-message_test.dir/test/gtest-message_test.cc.o  -o gtest-message_test  -L/opt/gtest/googletest-read-only/build/src  libgtest_main.dylib libgtest.dylib 
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles  8
+[ 12%] Built target gtest-message_test
+make -f CMakeFiles/gtest-options_test.dir/build.make CMakeFiles/gtest-options_test.dir/depend
+cd /opt/gtest/googletest-read-only/build && "/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_depends "Unix Makefiles" /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build/CMakeFiles/gtest-options_test.dir/DependInfo.cmake --color=
+make -f CMakeFiles/gtest-options_test.dir/build.make CMakeFiles/gtest-options_test.dir/build
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles 9
+[ 13%] Building CXX object CMakeFiles/gtest-options_test.dir/test/gtest-options_test.cc.o
+/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest-options_test.dir/test/gtest-options_test.cc.o -c /opt/gtest/googletest-read-only/test/gtest-options_test.cc
+Linking CXX executable gtest-options_test
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/gtest-options_test.dir/link.txt --verbose=1
+/opt/local/bin/g++-mp-4.7   -Wall -Wextra -ggdb -O0 -DDEBUG -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/gtest-options_test.dir/test/gtest-options_test.cc.o  -o gtest-options_test  -L/opt/gtest/googletest-read-only/build/src  libgtest_main.dylib libgtest.dylib 
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles  9
+[ 13%] Built target gtest-options_test
+make -f CMakeFiles/gtest-param-test_test.dir/build.make CMakeFiles/gtest-param-test_test.dir/depend
+cd /opt/gtest/googletest-read-only/build && "/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_depends "Unix Makefiles" /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build/CMakeFiles/gtest-param-test_test.dir/DependInfo.cmake --color=
+make -f CMakeFiles/gtest-param-test_test.dir/build.make CMakeFiles/gtest-param-test_test.dir/build
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles 10
+[ 15%] Building CXX object CMakeFiles/gtest-param-test_test.dir/test/gtest-param-test_test.cc.o
+/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest-param-test_test.dir/test/gtest-param-test_test.cc.o -c /opt/gtest/googletest-read-only/test/gtest-param-test_test.cc
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles 11
+[ 16%] Building CXX object CMakeFiles/gtest-param-test_test.dir/test/gtest-param-test2_test.cc.o
+/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest-param-test_test.dir/test/gtest-param-test2_test.cc.o -c /opt/gtest/googletest-read-only/test/gtest-param-test2_test.cc
+Linking CXX executable gtest-param-test_test
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/gtest-param-test_test.dir/link.txt --verbose=1
+/opt/local/bin/g++-mp-4.7   -Wall -Wextra -ggdb -O0 -DDEBUG -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/gtest-param-test_test.dir/test/gtest-param-test_test.cc.o CMakeFiles/gtest-param-test_test.dir/test/gtest-param-test2_test.cc.o  -o gtest-param-test_test  -L/opt/gtest/googletest-read-only/build/src  libgtest.dylib 
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles  10 11
+[ 16%] Built target gtest-param-test_test
+make -f CMakeFiles/gtest-port_test.dir/build.make CMakeFiles/gtest-port_test.dir/depend
+cd /opt/gtest/googletest-read-only/build && "/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_depends "Unix Makefiles" /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build/CMakeFiles/gtest-port_test.dir/DependInfo.cmake --color=
+make -f CMakeFiles/gtest-port_test.dir/build.make CMakeFiles/gtest-port_test.dir/build
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles 12
+[ 18%] Building CXX object CMakeFiles/gtest-port_test.dir/test/gtest-port_test.cc.o
+/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest-port_test.dir/test/gtest-port_test.cc.o -c /opt/gtest/googletest-read-only/test/gtest-port_test.cc
+Linking CXX executable gtest-port_test
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/gtest-port_test.dir/link.txt --verbose=1
+/opt/local/bin/g++-mp-4.7   -Wall -Wextra -ggdb -O0 -DDEBUG -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/gtest-port_test.dir/test/gtest-port_test.cc.o  -o gtest-port_test  -L/opt/gtest/googletest-read-only/build/src  libgtest_main.dylib libgtest.dylib 
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles  12
+[ 18%] Built target gtest-port_test
+make -f CMakeFiles/gtest-printers_test.dir/build.make CMakeFiles/gtest-printers_test.dir/depend
+cd /opt/gtest/googletest-read-only/build && "/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_depends "Unix Makefiles" /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build/CMakeFiles/gtest-printers_test.dir/DependInfo.cmake --color=
+make -f CMakeFiles/gtest-printers_test.dir/build.make CMakeFiles/gtest-printers_test.dir/build
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles 13
+[ 19%] Building CXX object CMakeFiles/gtest-printers_test.dir/test/gtest-printers_test.cc.o
+/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest-printers_test.dir/test/gtest-printers_test.cc.o -c /opt/gtest/googletest-read-only/test/gtest-printers_test.cc
+Linking CXX executable gtest-printers_test
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/gtest-printers_test.dir/link.txt --verbose=1
+/opt/local/bin/g++-mp-4.7   -Wall -Wextra -ggdb -O0 -DDEBUG -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/gtest-printers_test.dir/test/gtest-printers_test.cc.o  -o gtest-printers_test  -L/opt/gtest/googletest-read-only/build/src  libgtest_main.dylib libgtest.dylib 
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles  13
+[ 19%] Built target gtest-printers_test
+make -f CMakeFiles/gtest-test-part_test.dir/build.make CMakeFiles/gtest-test-part_test.dir/depend
+cd /opt/gtest/googletest-read-only/build && "/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_depends "Unix Makefiles" /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build/CMakeFiles/gtest-test-part_test.dir/DependInfo.cmake --color=
+make -f CMakeFiles/gtest-test-part_test.dir/build.make CMakeFiles/gtest-test-part_test.dir/build
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles 14
+[ 20%] Building CXX object CMakeFiles/gtest-test-part_test.dir/test/gtest-test-part_test.cc.o
+/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest-test-part_test.dir/test/gtest-test-part_test.cc.o -c /opt/gtest/googletest-read-only/test/gtest-test-part_test.cc
+Linking CXX executable gtest-test-part_test
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/gtest-test-part_test.dir/link.txt --verbose=1
+/opt/local/bin/g++-mp-4.7   -Wall -Wextra -ggdb -O0 -DDEBUG -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/gtest-test-part_test.dir/test/gtest-test-part_test.cc.o  -o gtest-test-part_test  -L/opt/gtest/googletest-read-only/build/src  libgtest_main.dylib libgtest.dylib 
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles  14
+[ 20%] Built target gtest-test-part_test
+make -f CMakeFiles/gtest_main_use_own_tuple.dir/build.make CMakeFiles/gtest_main_use_own_tuple.dir/depend
+cd /opt/gtest/googletest-read-only/build && "/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_depends "Unix Makefiles" /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build/CMakeFiles/gtest_main_use_own_tuple.dir/DependInfo.cmake --color=
+make -f CMakeFiles/gtest_main_use_own_tuple.dir/build.make CMakeFiles/gtest_main_use_own_tuple.dir/build
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles 37
+[ 22%] Building CXX object CMakeFiles/gtest_main_use_own_tuple.dir/src/gtest-all.cc.o
+/opt/local/bin/g++-mp-4.7   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_main_use_own_tuple_EXPORTS -Wall -Wextra -ggdb -O0 -DDEBUG -g -fPIC -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -DGTEST_USE_OWN_TR1_TUPLE=1 -o CMakeFiles/gtest_main_use_own_tuple.dir/src/gtest-all.cc.o -c /opt/gtest/googletest-read-only/src/gtest-all.cc
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles 38
+[ 23%] Building CXX object CMakeFiles/gtest_main_use_own_tuple.dir/src/gtest_main.cc.o
+/opt/local/bin/g++-mp-4.7   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_main_use_own_tuple_EXPORTS -Wall -Wextra -ggdb -O0 -DDEBUG -g -fPIC -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -DGTEST_USE_OWN_TR1_TUPLE=1 -o CMakeFiles/gtest_main_use_own_tuple.dir/src/gtest_main.cc.o -c /opt/gtest/googletest-read-only/src/gtest_main.cc
+Linking CXX shared library libgtest_main_use_own_tuple.dylib
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/gtest_main_use_own_tuple.dir/link.txt --verbose=1
+/opt/local/bin/g++-mp-4.7  -Wall -Wextra -ggdb -O0 -DDEBUG -g -dynamiclib -Wl,-headerpad_max_install_names   -o libgtest_main_use_own_tuple.dylib -install_name /opt/gtest/googletest-read-only/build/libgtest_main_use_own_tuple.dylib CMakeFiles/gtest_main_use_own_tuple.dir/src/gtest-all.cc.o CMakeFiles/gtest_main_use_own_tuple.dir/src/gtest_main.cc.o  -L/opt/gtest/googletest-read-only/build/src 
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles  37 38
+[ 23%] Built target gtest_main_use_own_tuple
+make -f CMakeFiles/gtest-tuple_test.dir/build.make CMakeFiles/gtest-tuple_test.dir/depend
+cd /opt/gtest/googletest-read-only/build && "/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_depends "Unix Makefiles" /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build/CMakeFiles/gtest-tuple_test.dir/DependInfo.cmake --color=
+make -f CMakeFiles/gtest-tuple_test.dir/build.make CMakeFiles/gtest-tuple_test.dir/build
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles 15
+[ 25%] Building CXX object CMakeFiles/gtest-tuple_test.dir/test/gtest-tuple_test.cc.o
+/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -DGTEST_USE_OWN_TR1_TUPLE=1 -o CMakeFiles/gtest-tuple_test.dir/test/gtest-tuple_test.cc.o -c /opt/gtest/googletest-read-only/test/gtest-tuple_test.cc
+Linking CXX executable gtest-tuple_test
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/gtest-tuple_test.dir/link.txt --verbose=1
+/opt/local/bin/g++-mp-4.7   -Wall -Wextra -ggdb -O0 -DDEBUG -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/gtest-tuple_test.dir/test/gtest-tuple_test.cc.o  -o gtest-tuple_test  -L/opt/gtest/googletest-read-only/build/src  libgtest_main_use_own_tuple.dylib 
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles  15
+[ 25%] Built target gtest-tuple_test
+make -f CMakeFiles/gtest-typed-test_test.dir/build.make CMakeFiles/gtest-typed-test_test.dir/depend
+cd /opt/gtest/googletest-read-only/build && "/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_depends "Unix Makefiles" /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build/CMakeFiles/gtest-typed-test_test.dir/DependInfo.cmake --color=
+make -f CMakeFiles/gtest-typed-test_test.dir/build.make CMakeFiles/gtest-typed-test_test.dir/build
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles 16
+[ 26%] Building CXX object CMakeFiles/gtest-typed-test_test.dir/test/gtest-typed-test_test.cc.o
+/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest-typed-test_test.dir/test/gtest-typed-test_test.cc.o -c /opt/gtest/googletest-read-only/test/gtest-typed-test_test.cc
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles 17
+[ 27%] Building CXX object CMakeFiles/gtest-typed-test_test.dir/test/gtest-typed-test2_test.cc.o
+/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest-typed-test_test.dir/test/gtest-typed-test2_test.cc.o -c /opt/gtest/googletest-read-only/test/gtest-typed-test2_test.cc
+Linking CXX executable gtest-typed-test_test
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/gtest-typed-test_test.dir/link.txt --verbose=1
+/opt/local/bin/g++-mp-4.7   -Wall -Wextra -ggdb -O0 -DDEBUG -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/gtest-typed-test_test.dir/test/gtest-typed-test_test.cc.o CMakeFiles/gtest-typed-test_test.dir/test/gtest-typed-test2_test.cc.o  -o gtest-typed-test_test  -L/opt/gtest/googletest-read-only/build/src  libgtest_main.dylib libgtest.dylib 
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles  16 17
+[ 27%] Built target gtest-typed-test_test
+make -f CMakeFiles/gtest-unittest-api_test.dir/build.make CMakeFiles/gtest-unittest-api_test.dir/depend
+cd /opt/gtest/googletest-read-only/build && "/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_depends "Unix Makefiles" /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build/CMakeFiles/gtest-unittest-api_test.dir/DependInfo.cmake --color=
+make -f CMakeFiles/gtest-unittest-api_test.dir/build.make CMakeFiles/gtest-unittest-api_test.dir/build
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles 18
+[ 29%] Building CXX object CMakeFiles/gtest-unittest-api_test.dir/test/gtest-unittest-api_test.cc.o
+/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest-unittest-api_test.dir/test/gtest-unittest-api_test.cc.o -c /opt/gtest/googletest-read-only/test/gtest-unittest-api_test.cc
+Linking CXX executable gtest-unittest-api_test
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/gtest-unittest-api_test.dir/link.txt --verbose=1
+/opt/local/bin/g++-mp-4.7   -Wall -Wextra -ggdb -O0 -DDEBUG -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/gtest-unittest-api_test.dir/test/gtest-unittest-api_test.cc.o  -o gtest-unittest-api_test  -L/opt/gtest/googletest-read-only/build/src  libgtest.dylib 
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles  18
+[ 29%] Built target gtest-unittest-api_test
+make -f CMakeFiles/gtest_break_on_failure_unittest_.dir/build.make CMakeFiles/gtest_break_on_failure_unittest_.dir/depend
+cd /opt/gtest/googletest-read-only/build && "/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_depends "Unix Makefiles" /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build/CMakeFiles/gtest_break_on_failure_unittest_.dir/DependInfo.cmake --color=
+make -f CMakeFiles/gtest_break_on_failure_unittest_.dir/build.make CMakeFiles/gtest_break_on_failure_unittest_.dir/build
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles 19
+[ 30%] Building CXX object CMakeFiles/gtest_break_on_failure_unittest_.dir/test/gtest_break_on_failure_unittest_.cc.o
+/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest_break_on_failure_unittest_.dir/test/gtest_break_on_failure_unittest_.cc.o -c /opt/gtest/googletest-read-only/test/gtest_break_on_failure_unittest_.cc
+Linking CXX executable gtest_break_on_failure_unittest_
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/gtest_break_on_failure_unittest_.dir/link.txt --verbose=1
+/opt/local/bin/g++-mp-4.7   -Wall -Wextra -ggdb -O0 -DDEBUG -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/gtest_break_on_failure_unittest_.dir/test/gtest_break_on_failure_unittest_.cc.o  -o gtest_break_on_failure_unittest_  -L/opt/gtest/googletest-read-only/build/src  libgtest.dylib 
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles  19
+[ 30%] Built target gtest_break_on_failure_unittest_
+make -f CMakeFiles/gtest_catch_exceptions_ex_test_.dir/build.make CMakeFiles/gtest_catch_exceptions_ex_test_.dir/depend
+cd /opt/gtest/googletest-read-only/build && "/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_depends "Unix Makefiles" /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build/CMakeFiles/gtest_catch_exceptions_ex_test_.dir/DependInfo.cmake --color=
+make -f CMakeFiles/gtest_catch_exceptions_ex_test_.dir/build.make CMakeFiles/gtest_catch_exceptions_ex_test_.dir/build
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles 20
+[ 31%] Building CXX object CMakeFiles/gtest_catch_exceptions_ex_test_.dir/test/gtest_catch_exceptions_test_.cc.o
+/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest_catch_exceptions_ex_test_.dir/test/gtest_catch_exceptions_test_.cc.o -c /opt/gtest/googletest-read-only/test/gtest_catch_exceptions_test_.cc
+Linking CXX executable gtest_catch_exceptions_ex_test_
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/gtest_catch_exceptions_ex_test_.dir/link.txt --verbose=1
+/opt/local/bin/g++-mp-4.7   -Wall -Wextra -ggdb -O0 -DDEBUG -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/gtest_catch_exceptions_ex_test_.dir/test/gtest_catch_exceptions_test_.cc.o  -o gtest_catch_exceptions_ex_test_  -L/opt/gtest/googletest-read-only/build/src  libgtest_main.dylib libgtest.dylib 
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles  20
+[ 31%] Built target gtest_catch_exceptions_ex_test_
+make -f CMakeFiles/gtest_main_no_exception.dir/build.make CMakeFiles/gtest_main_no_exception.dir/depend
+cd /opt/gtest/googletest-read-only/build && "/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_depends "Unix Makefiles" /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build/CMakeFiles/gtest_main_no_exception.dir/DependInfo.cmake --color=
+make -f CMakeFiles/gtest_main_no_exception.dir/build.make CMakeFiles/gtest_main_no_exception.dir/build
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles 32
+[ 33%] Building CXX object CMakeFiles/gtest_main_no_exception.dir/src/gtest-all.cc.o
+/opt/local/bin/g++-mp-4.7   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_main_no_exception_EXPORTS -Wall -Wextra -ggdb -O0 -DDEBUG -g -fPIC -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fno-exceptions -o CMakeFiles/gtest_main_no_exception.dir/src/gtest-all.cc.o -c /opt/gtest/googletest-read-only/src/gtest-all.cc
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles 33
+[ 34%] Building CXX object CMakeFiles/gtest_main_no_exception.dir/src/gtest_main.cc.o
+/opt/local/bin/g++-mp-4.7   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_main_no_exception_EXPORTS -Wall -Wextra -ggdb -O0 -DDEBUG -g -fPIC -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fno-exceptions -o CMakeFiles/gtest_main_no_exception.dir/src/gtest_main.cc.o -c /opt/gtest/googletest-read-only/src/gtest_main.cc
+Linking CXX shared library libgtest_main_no_exception.dylib
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/gtest_main_no_exception.dir/link.txt --verbose=1
+/opt/local/bin/g++-mp-4.7  -Wall -Wextra -ggdb -O0 -DDEBUG -g -dynamiclib -Wl,-headerpad_max_install_names   -o libgtest_main_no_exception.dylib -install_name /opt/gtest/googletest-read-only/build/libgtest_main_no_exception.dylib CMakeFiles/gtest_main_no_exception.dir/src/gtest-all.cc.o CMakeFiles/gtest_main_no_exception.dir/src/gtest_main.cc.o  -L/opt/gtest/googletest-read-only/build/src 
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles  32 33
+[ 34%] Built target gtest_main_no_exception
+make -f CMakeFiles/gtest_catch_exceptions_no_ex_test_.dir/build.make CMakeFiles/gtest_catch_exceptions_no_ex_test_.dir/depend
+cd /opt/gtest/googletest-read-only/build && "/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_depends "Unix Makefiles" /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build/CMakeFiles/gtest_catch_exceptions_no_ex_test_.dir/DependInfo.cmake --color=
+make -f CMakeFiles/gtest_catch_exceptions_no_ex_test_.dir/build.make CMakeFiles/gtest_catch_exceptions_no_ex_test_.dir/build
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles 21
+[ 36%] Building CXX object CMakeFiles/gtest_catch_exceptions_no_ex_test_.dir/test/gtest_catch_exceptions_test_.cc.o
+/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fno-exceptions -o CMakeFiles/gtest_catch_exceptions_no_ex_test_.dir/test/gtest_catch_exceptions_test_.cc.o -c /opt/gtest/googletest-read-only/test/gtest_catch_exceptions_test_.cc
+Linking CXX executable gtest_catch_exceptions_no_ex_test_
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/gtest_catch_exceptions_no_ex_test_.dir/link.txt --verbose=1
+/opt/local/bin/g++-mp-4.7   -Wall -Wextra -ggdb -O0 -DDEBUG -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/gtest_catch_exceptions_no_ex_test_.dir/test/gtest_catch_exceptions_test_.cc.o  -o gtest_catch_exceptions_no_ex_test_  -L/opt/gtest/googletest-read-only/build/src  libgtest_main_no_exception.dylib 
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles  21
+[ 36%] Built target gtest_catch_exceptions_no_ex_test_
+make -f CMakeFiles/gtest_color_test_.dir/build.make CMakeFiles/gtest_color_test_.dir/depend
+cd /opt/gtest/googletest-read-only/build && "/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_depends "Unix Makefiles" /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build/CMakeFiles/gtest_color_test_.dir/DependInfo.cmake --color=
+make -f CMakeFiles/gtest_color_test_.dir/build.make CMakeFiles/gtest_color_test_.dir/build
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles 22
+[ 37%] Building CXX object CMakeFiles/gtest_color_test_.dir/test/gtest_color_test_.cc.o
+/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest_color_test_.dir/test/gtest_color_test_.cc.o -c /opt/gtest/googletest-read-only/test/gtest_color_test_.cc
+Linking CXX executable gtest_color_test_
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/gtest_color_test_.dir/link.txt --verbose=1
+/opt/local/bin/g++-mp-4.7   -Wall -Wextra -ggdb -O0 -DDEBUG -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/gtest_color_test_.dir/test/gtest_color_test_.cc.o  -o gtest_color_test_  -L/opt/gtest/googletest-read-only/build/src  libgtest.dylib 
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles  22
+[ 37%] Built target gtest_color_test_
+make -f CMakeFiles/gtest_dll.dir/build.make CMakeFiles/gtest_dll.dir/depend
+cd /opt/gtest/googletest-read-only/build && "/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_depends "Unix Makefiles" /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build/CMakeFiles/gtest_dll.dir/DependInfo.cmake --color=
+make -f CMakeFiles/gtest_dll.dir/build.make CMakeFiles/gtest_dll.dir/build
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles 23
+[ 38%] Building CXX object CMakeFiles/gtest_dll.dir/src/gtest-all.cc.o
+/opt/local/bin/g++-mp-4.7   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_dll_EXPORTS -Wall -Wextra -ggdb -O0 -DDEBUG -g -fPIC -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest_dll.dir/src/gtest-all.cc.o -c /opt/gtest/googletest-read-only/src/gtest-all.cc
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles 24
+[ 40%] Building CXX object CMakeFiles/gtest_dll.dir/src/gtest_main.cc.o
+/opt/local/bin/g++-mp-4.7   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_dll_EXPORTS -Wall -Wextra -ggdb -O0 -DDEBUG -g -fPIC -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest_dll.dir/src/gtest_main.cc.o -c /opt/gtest/googletest-read-only/src/gtest_main.cc
+Linking CXX shared library libgtest_dll.dylib
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/gtest_dll.dir/link.txt --verbose=1
+/opt/local/bin/g++-mp-4.7  -Wall -Wextra -ggdb -O0 -DDEBUG -g -dynamiclib -Wl,-headerpad_max_install_names   -o libgtest_dll.dylib -install_name /opt/gtest/googletest-read-only/build/libgtest_dll.dylib CMakeFiles/gtest_dll.dir/src/gtest-all.cc.o CMakeFiles/gtest_dll.dir/src/gtest_main.cc.o  -L/opt/gtest/googletest-read-only/build/src 
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles  23 24
+[ 40%] Built target gtest_dll
+make -f CMakeFiles/gtest_dll_test_.dir/build.make CMakeFiles/gtest_dll_test_.dir/depend
+cd /opt/gtest/googletest-read-only/build && "/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_depends "Unix Makefiles" /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build/CMakeFiles/gtest_dll_test_.dir/DependInfo.cmake --color=
+make -f CMakeFiles/gtest_dll_test_.dir/build.make CMakeFiles/gtest_dll_test_.dir/build
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles 25
+[ 41%] Building CXX object CMakeFiles/gtest_dll_test_.dir/test/gtest_all_test.cc.o
+/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest_dll_test_.dir/test/gtest_all_test.cc.o -c /opt/gtest/googletest-read-only/test/gtest_all_test.cc
+Linking CXX executable gtest_dll_test_
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/gtest_dll_test_.dir/link.txt --verbose=1
+/opt/local/bin/g++-mp-4.7   -Wall -Wextra -ggdb -O0 -DDEBUG -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/gtest_dll_test_.dir/test/gtest_all_test.cc.o  -o gtest_dll_test_  -L/opt/gtest/googletest-read-only/build/src  libgtest_dll.dylib 
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles  25
+[ 41%] Built target gtest_dll_test_
+make -f CMakeFiles/gtest_env_var_test_.dir/build.make CMakeFiles/gtest_env_var_test_.dir/depend
+cd /opt/gtest/googletest-read-only/build && "/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_depends "Unix Makefiles" /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build/CMakeFiles/gtest_env_var_test_.dir/DependInfo.cmake --color=
+make -f CMakeFiles/gtest_env_var_test_.dir/build.make CMakeFiles/gtest_env_var_test_.dir/build
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles 26
+[ 43%] Building CXX object CMakeFiles/gtest_env_var_test_.dir/test/gtest_env_var_test_.cc.o
+/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest_env_var_test_.dir/test/gtest_env_var_test_.cc.o -c /opt/gtest/googletest-read-only/test/gtest_env_var_test_.cc
+Linking CXX executable gtest_env_var_test_
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/gtest_env_var_test_.dir/link.txt --verbose=1
+/opt/local/bin/g++-mp-4.7   -Wall -Wextra -ggdb -O0 -DDEBUG -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/gtest_env_var_test_.dir/test/gtest_env_var_test_.cc.o  -o gtest_env_var_test_  -L/opt/gtest/googletest-read-only/build/src  libgtest.dylib 
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles  26
+[ 43%] Built target gtest_env_var_test_
+make -f CMakeFiles/gtest_environment_test.dir/build.make CMakeFiles/gtest_environment_test.dir/depend
+cd /opt/gtest/googletest-read-only/build && "/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_depends "Unix Makefiles" /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build/CMakeFiles/gtest_environment_test.dir/DependInfo.cmake --color=
+make -f CMakeFiles/gtest_environment_test.dir/build.make CMakeFiles/gtest_environment_test.dir/build
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles 27
+[ 44%] Building CXX object CMakeFiles/gtest_environment_test.dir/test/gtest_environment_test.cc.o
+/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest_environment_test.dir/test/gtest_environment_test.cc.o -c /opt/gtest/googletest-read-only/test/gtest_environment_test.cc
+Linking CXX executable gtest_environment_test
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/gtest_environment_test.dir/link.txt --verbose=1
+/opt/local/bin/g++-mp-4.7   -Wall -Wextra -ggdb -O0 -DDEBUG -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/gtest_environment_test.dir/test/gtest_environment_test.cc.o  -o gtest_environment_test  -L/opt/gtest/googletest-read-only/build/src  libgtest.dylib 
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles  27
+[ 44%] Built target gtest_environment_test
+make -f CMakeFiles/gtest_filter_unittest_.dir/build.make CMakeFiles/gtest_filter_unittest_.dir/depend
+cd /opt/gtest/googletest-read-only/build && "/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_depends "Unix Makefiles" /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build/CMakeFiles/gtest_filter_unittest_.dir/DependInfo.cmake --color=
+make -f CMakeFiles/gtest_filter_unittest_.dir/build.make CMakeFiles/gtest_filter_unittest_.dir/build
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles 28
+[ 45%] Building CXX object CMakeFiles/gtest_filter_unittest_.dir/test/gtest_filter_unittest_.cc.o
+/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest_filter_unittest_.dir/test/gtest_filter_unittest_.cc.o -c /opt/gtest/googletest-read-only/test/gtest_filter_unittest_.cc
+Linking CXX executable gtest_filter_unittest_
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/gtest_filter_unittest_.dir/link.txt --verbose=1
+/opt/local/bin/g++-mp-4.7   -Wall -Wextra -ggdb -O0 -DDEBUG -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/gtest_filter_unittest_.dir/test/gtest_filter_unittest_.cc.o  -o gtest_filter_unittest_  -L/opt/gtest/googletest-read-only/build/src  libgtest.dylib 
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles  28
+[ 45%] Built target gtest_filter_unittest_
+make -f CMakeFiles/gtest_help_test_.dir/build.make CMakeFiles/gtest_help_test_.dir/depend
+cd /opt/gtest/googletest-read-only/build && "/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_depends "Unix Makefiles" /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build/CMakeFiles/gtest_help_test_.dir/DependInfo.cmake --color=
+make -f CMakeFiles/gtest_help_test_.dir/build.make CMakeFiles/gtest_help_test_.dir/build
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles 29
+[ 47%] Building CXX object CMakeFiles/gtest_help_test_.dir/test/gtest_help_test_.cc.o
+/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest_help_test_.dir/test/gtest_help_test_.cc.o -c /opt/gtest/googletest-read-only/test/gtest_help_test_.cc
+Linking CXX executable gtest_help_test_
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/gtest_help_test_.dir/link.txt --verbose=1
+/opt/local/bin/g++-mp-4.7   -Wall -Wextra -ggdb -O0 -DDEBUG -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/gtest_help_test_.dir/test/gtest_help_test_.cc.o  -o gtest_help_test_  -L/opt/gtest/googletest-read-only/build/src  libgtest_main.dylib libgtest.dylib 
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles  29
+[ 47%] Built target gtest_help_test_
+make -f CMakeFiles/gtest_list_tests_unittest_.dir/build.make CMakeFiles/gtest_list_tests_unittest_.dir/depend
+cd /opt/gtest/googletest-read-only/build && "/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_depends "Unix Makefiles" /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build/CMakeFiles/gtest_list_tests_unittest_.dir/DependInfo.cmake --color=
+make -f CMakeFiles/gtest_list_tests_unittest_.dir/build.make CMakeFiles/gtest_list_tests_unittest_.dir/build
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles 30
+[ 48%] Building CXX object CMakeFiles/gtest_list_tests_unittest_.dir/test/gtest_list_tests_unittest_.cc.o
+/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest_list_tests_unittest_.dir/test/gtest_list_tests_unittest_.cc.o -c /opt/gtest/googletest-read-only/test/gtest_list_tests_unittest_.cc
+Linking CXX executable gtest_list_tests_unittest_
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/gtest_list_tests_unittest_.dir/link.txt --verbose=1
+/opt/local/bin/g++-mp-4.7   -Wall -Wextra -ggdb -O0 -DDEBUG -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/gtest_list_tests_unittest_.dir/test/gtest_list_tests_unittest_.cc.o  -o gtest_list_tests_unittest_  -L/opt/gtest/googletest-read-only/build/src  libgtest.dylib 
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles  30
+[ 48%] Built target gtest_list_tests_unittest_
+make -f CMakeFiles/gtest_main_no_rtti.dir/build.make CMakeFiles/gtest_main_no_rtti.dir/depend
+cd /opt/gtest/googletest-read-only/build && "/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_depends "Unix Makefiles" /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build/CMakeFiles/gtest_main_no_rtti.dir/DependInfo.cmake --color=
+make -f CMakeFiles/gtest_main_no_rtti.dir/build.make CMakeFiles/gtest_main_no_rtti.dir/build
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles 34
+[ 50%] Building CXX object CMakeFiles/gtest_main_no_rtti.dir/src/gtest-all.cc.o
+/opt/local/bin/g++-mp-4.7   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_main_no_rtti_EXPORTS -Wall -Wextra -ggdb -O0 -DDEBUG -g -fPIC -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -fno-rtti -DGTEST_HAS_RTTI=0 -o CMakeFiles/gtest_main_no_rtti.dir/src/gtest-all.cc.o -c /opt/gtest/googletest-read-only/src/gtest-all.cc
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles 35
+[ 51%] Building CXX object CMakeFiles/gtest_main_no_rtti.dir/src/gtest_main.cc.o
+/opt/local/bin/g++-mp-4.7   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_main_no_rtti_EXPORTS -Wall -Wextra -ggdb -O0 -DDEBUG -g -fPIC -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -fno-rtti -DGTEST_HAS_RTTI=0 -o CMakeFiles/gtest_main_no_rtti.dir/src/gtest_main.cc.o -c /opt/gtest/googletest-read-only/src/gtest_main.cc
+Linking CXX shared library libgtest_main_no_rtti.dylib
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/gtest_main_no_rtti.dir/link.txt --verbose=1
+/opt/local/bin/g++-mp-4.7  -Wall -Wextra -ggdb -O0 -DDEBUG -g -dynamiclib -Wl,-headerpad_max_install_names   -o libgtest_main_no_rtti.dylib -install_name /opt/gtest/googletest-read-only/build/libgtest_main_no_rtti.dylib CMakeFiles/gtest_main_no_rtti.dir/src/gtest-all.cc.o CMakeFiles/gtest_main_no_rtti.dir/src/gtest_main.cc.o  -L/opt/gtest/googletest-read-only/build/src 
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles  34 35
+[ 51%] Built target gtest_main_no_rtti
+make -f CMakeFiles/gtest_main_unittest.dir/build.make CMakeFiles/gtest_main_unittest.dir/depend
+cd /opt/gtest/googletest-read-only/build && "/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_depends "Unix Makefiles" /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build/CMakeFiles/gtest_main_unittest.dir/DependInfo.cmake --color=
+make -f CMakeFiles/gtest_main_unittest.dir/build.make CMakeFiles/gtest_main_unittest.dir/build
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles 36
+[ 52%] Building CXX object CMakeFiles/gtest_main_unittest.dir/test/gtest_main_unittest.cc.o
+/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest_main_unittest.dir/test/gtest_main_unittest.cc.o -c /opt/gtest/googletest-read-only/test/gtest_main_unittest.cc
+Linking CXX executable gtest_main_unittest
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/gtest_main_unittest.dir/link.txt --verbose=1
+/opt/local/bin/g++-mp-4.7   -Wall -Wextra -ggdb -O0 -DDEBUG -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/gtest_main_unittest.dir/test/gtest_main_unittest.cc.o  -o gtest_main_unittest  -L/opt/gtest/googletest-read-only/build/src  libgtest_main.dylib libgtest.dylib 
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles  36
+[ 52%] Built target gtest_main_unittest
+make -f CMakeFiles/gtest_no_exception.dir/build.make CMakeFiles/gtest_no_exception.dir/depend
+cd /opt/gtest/googletest-read-only/build && "/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_depends "Unix Makefiles" /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build/CMakeFiles/gtest_no_exception.dir/DependInfo.cmake --color=
+make -f CMakeFiles/gtest_no_exception.dir/build.make CMakeFiles/gtest_no_exception.dir/build
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles 39
+[ 54%] Building CXX object CMakeFiles/gtest_no_exception.dir/src/gtest-all.cc.o
+/opt/local/bin/g++-mp-4.7   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_no_exception_EXPORTS -Wall -Wextra -ggdb -O0 -DDEBUG -g -fPIC -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fno-exceptions -o CMakeFiles/gtest_no_exception.dir/src/gtest-all.cc.o -c /opt/gtest/googletest-read-only/src/gtest-all.cc
+Linking CXX shared library libgtest_no_exception.dylib
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/gtest_no_exception.dir/link.txt --verbose=1
+/opt/local/bin/g++-mp-4.7  -Wall -Wextra -ggdb -O0 -DDEBUG -g -dynamiclib -Wl,-headerpad_max_install_names   -o libgtest_no_exception.dylib -install_name /opt/gtest/googletest-read-only/build/libgtest_no_exception.dylib CMakeFiles/gtest_no_exception.dir/src/gtest-all.cc.o  -L/opt/gtest/googletest-read-only/build/src 
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles  39
+[ 54%] Built target gtest_no_exception
+make -f CMakeFiles/gtest_no_rtti_unittest.dir/build.make CMakeFiles/gtest_no_rtti_unittest.dir/depend
+cd /opt/gtest/googletest-read-only/build && "/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_depends "Unix Makefiles" /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build/CMakeFiles/gtest_no_rtti_unittest.dir/DependInfo.cmake --color=
+make -f CMakeFiles/gtest_no_rtti_unittest.dir/build.make CMakeFiles/gtest_no_rtti_unittest.dir/build
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles 40
+[ 55%] Building CXX object CMakeFiles/gtest_no_rtti_unittest.dir/test/gtest_unittest.cc.o
+/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -fno-rtti -DGTEST_HAS_RTTI=0 -o CMakeFiles/gtest_no_rtti_unittest.dir/test/gtest_unittest.cc.o -c /opt/gtest/googletest-read-only/test/gtest_unittest.cc
+Linking CXX executable gtest_no_rtti_unittest
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/gtest_no_rtti_unittest.dir/link.txt --verbose=1
+/opt/local/bin/g++-mp-4.7   -Wall -Wextra -ggdb -O0 -DDEBUG -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/gtest_no_rtti_unittest.dir/test/gtest_unittest.cc.o  -o gtest_no_rtti_unittest  -L/opt/gtest/googletest-read-only/build/src  libgtest_main_no_rtti.dylib 
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles  40
+[ 55%] Built target gtest_no_rtti_unittest
+make -f CMakeFiles/gtest_no_test_unittest.dir/build.make CMakeFiles/gtest_no_test_unittest.dir/depend
+cd /opt/gtest/googletest-read-only/build && "/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_depends "Unix Makefiles" /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build/CMakeFiles/gtest_no_test_unittest.dir/DependInfo.cmake --color=
+make -f CMakeFiles/gtest_no_test_unittest.dir/build.make CMakeFiles/gtest_no_test_unittest.dir/build
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles 41
+[ 56%] Building CXX object CMakeFiles/gtest_no_test_unittest.dir/test/gtest_no_test_unittest.cc.o
+/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest_no_test_unittest.dir/test/gtest_no_test_unittest.cc.o -c /opt/gtest/googletest-read-only/test/gtest_no_test_unittest.cc
+Linking CXX executable gtest_no_test_unittest
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/gtest_no_test_unittest.dir/link.txt --verbose=1
+/opt/local/bin/g++-mp-4.7   -Wall -Wextra -ggdb -O0 -DDEBUG -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/gtest_no_test_unittest.dir/test/gtest_no_test_unittest.cc.o  -o gtest_no_test_unittest  -L/opt/gtest/googletest-read-only/build/src  libgtest.dylib 
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles  41
+[ 56%] Built target gtest_no_test_unittest
+make -f CMakeFiles/gtest_output_test_.dir/build.make CMakeFiles/gtest_output_test_.dir/depend
+cd /opt/gtest/googletest-read-only/build && "/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_depends "Unix Makefiles" /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build/CMakeFiles/gtest_output_test_.dir/DependInfo.cmake --color=
+make -f CMakeFiles/gtest_output_test_.dir/build.make CMakeFiles/gtest_output_test_.dir/build
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles 42
+[ 58%] Building CXX object CMakeFiles/gtest_output_test_.dir/test/gtest_output_test_.cc.o
+/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest_output_test_.dir/test/gtest_output_test_.cc.o -c /opt/gtest/googletest-read-only/test/gtest_output_test_.cc
+Linking CXX executable gtest_output_test_
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/gtest_output_test_.dir/link.txt --verbose=1
+/opt/local/bin/g++-mp-4.7   -Wall -Wextra -ggdb -O0 -DDEBUG -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/gtest_output_test_.dir/test/gtest_output_test_.cc.o  -o gtest_output_test_  -L/opt/gtest/googletest-read-only/build/src  libgtest.dylib 
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles  42
+[ 58%] Built target gtest_output_test_
+make -f CMakeFiles/gtest_pred_impl_unittest.dir/build.make CMakeFiles/gtest_pred_impl_unittest.dir/depend
+cd /opt/gtest/googletest-read-only/build && "/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_depends "Unix Makefiles" /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build/CMakeFiles/gtest_pred_impl_unittest.dir/DependInfo.cmake --color=
+make -f CMakeFiles/gtest_pred_impl_unittest.dir/build.make CMakeFiles/gtest_pred_impl_unittest.dir/build
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles 43
+[ 59%] Building CXX object CMakeFiles/gtest_pred_impl_unittest.dir/test/gtest_pred_impl_unittest.cc.o
+/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest_pred_impl_unittest.dir/test/gtest_pred_impl_unittest.cc.o -c /opt/gtest/googletest-read-only/test/gtest_pred_impl_unittest.cc
+Linking CXX executable gtest_pred_impl_unittest
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/gtest_pred_impl_unittest.dir/link.txt --verbose=1
+/opt/local/bin/g++-mp-4.7   -Wall -Wextra -ggdb -O0 -DDEBUG -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/gtest_pred_impl_unittest.dir/test/gtest_pred_impl_unittest.cc.o  -o gtest_pred_impl_unittest  -L/opt/gtest/googletest-read-only/build/src  libgtest_main.dylib libgtest.dylib 
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles  43
+[ 59%] Built target gtest_pred_impl_unittest
+make -f CMakeFiles/gtest_prod_test.dir/build.make CMakeFiles/gtest_prod_test.dir/depend
+cd /opt/gtest/googletest-read-only/build && "/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_depends "Unix Makefiles" /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build/CMakeFiles/gtest_prod_test.dir/DependInfo.cmake --color=
+make -f CMakeFiles/gtest_prod_test.dir/build.make CMakeFiles/gtest_prod_test.dir/build
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles 44
+[ 61%] Building CXX object CMakeFiles/gtest_prod_test.dir/test/gtest_prod_test.cc.o
+/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest_prod_test.dir/test/gtest_prod_test.cc.o -c /opt/gtest/googletest-read-only/test/gtest_prod_test.cc
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles 45
+[ 62%] Building CXX object CMakeFiles/gtest_prod_test.dir/test/production.cc.o
+/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest_prod_test.dir/test/production.cc.o -c /opt/gtest/googletest-read-only/test/production.cc
+Linking CXX executable gtest_prod_test
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/gtest_prod_test.dir/link.txt --verbose=1
+/opt/local/bin/g++-mp-4.7   -Wall -Wextra -ggdb -O0 -DDEBUG -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/gtest_prod_test.dir/test/gtest_prod_test.cc.o CMakeFiles/gtest_prod_test.dir/test/production.cc.o  -o gtest_prod_test  -L/opt/gtest/googletest-read-only/build/src  libgtest_main.dylib libgtest.dylib 
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles  44 45
+[ 62%] Built target gtest_prod_test
+make -f CMakeFiles/gtest_repeat_test.dir/build.make CMakeFiles/gtest_repeat_test.dir/depend
+cd /opt/gtest/googletest-read-only/build && "/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_depends "Unix Makefiles" /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build/CMakeFiles/gtest_repeat_test.dir/DependInfo.cmake --color=
+make -f CMakeFiles/gtest_repeat_test.dir/build.make CMakeFiles/gtest_repeat_test.dir/build
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles 46
+[ 63%] Building CXX object CMakeFiles/gtest_repeat_test.dir/test/gtest_repeat_test.cc.o
+/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest_repeat_test.dir/test/gtest_repeat_test.cc.o -c /opt/gtest/googletest-read-only/test/gtest_repeat_test.cc
+Linking CXX executable gtest_repeat_test
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/gtest_repeat_test.dir/link.txt --verbose=1
+/opt/local/bin/g++-mp-4.7   -Wall -Wextra -ggdb -O0 -DDEBUG -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/gtest_repeat_test.dir/test/gtest_repeat_test.cc.o  -o gtest_repeat_test  -L/opt/gtest/googletest-read-only/build/src  libgtest.dylib 
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles  46
+[ 63%] Built target gtest_repeat_test
+make -f CMakeFiles/gtest_shuffle_test_.dir/build.make CMakeFiles/gtest_shuffle_test_.dir/depend
+cd /opt/gtest/googletest-read-only/build && "/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_depends "Unix Makefiles" /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build/CMakeFiles/gtest_shuffle_test_.dir/DependInfo.cmake --color=
+make -f CMakeFiles/gtest_shuffle_test_.dir/build.make CMakeFiles/gtest_shuffle_test_.dir/build
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles 47
+[ 65%] Building CXX object CMakeFiles/gtest_shuffle_test_.dir/test/gtest_shuffle_test_.cc.o
+/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest_shuffle_test_.dir/test/gtest_shuffle_test_.cc.o -c /opt/gtest/googletest-read-only/test/gtest_shuffle_test_.cc
+Linking CXX executable gtest_shuffle_test_
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/gtest_shuffle_test_.dir/link.txt --verbose=1
+/opt/local/bin/g++-mp-4.7   -Wall -Wextra -ggdb -O0 -DDEBUG -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/gtest_shuffle_test_.dir/test/gtest_shuffle_test_.cc.o  -o gtest_shuffle_test_  -L/opt/gtest/googletest-read-only/build/src  libgtest.dylib 
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles  47
+[ 65%] Built target gtest_shuffle_test_
+make -f CMakeFiles/gtest_sole_header_test.dir/build.make CMakeFiles/gtest_sole_header_test.dir/depend
+cd /opt/gtest/googletest-read-only/build && "/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_depends "Unix Makefiles" /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build/CMakeFiles/gtest_sole_header_test.dir/DependInfo.cmake --color=
+make -f CMakeFiles/gtest_sole_header_test.dir/build.make CMakeFiles/gtest_sole_header_test.dir/build
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles 48
+[ 66%] Building CXX object CMakeFiles/gtest_sole_header_test.dir/test/gtest_sole_header_test.cc.o
+/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest_sole_header_test.dir/test/gtest_sole_header_test.cc.o -c /opt/gtest/googletest-read-only/test/gtest_sole_header_test.cc
+Linking CXX executable gtest_sole_header_test
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/gtest_sole_header_test.dir/link.txt --verbose=1
+/opt/local/bin/g++-mp-4.7   -Wall -Wextra -ggdb -O0 -DDEBUG -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/gtest_sole_header_test.dir/test/gtest_sole_header_test.cc.o  -o gtest_sole_header_test  -L/opt/gtest/googletest-read-only/build/src  libgtest_main.dylib libgtest.dylib 
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles  48
+[ 66%] Built target gtest_sole_header_test
+make -f CMakeFiles/gtest_stress_test.dir/build.make CMakeFiles/gtest_stress_test.dir/depend
+cd /opt/gtest/googletest-read-only/build && "/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_depends "Unix Makefiles" /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build/CMakeFiles/gtest_stress_test.dir/DependInfo.cmake --color=
+make -f CMakeFiles/gtest_stress_test.dir/build.make CMakeFiles/gtest_stress_test.dir/build
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles 49
+[ 68%] Building CXX object CMakeFiles/gtest_stress_test.dir/test/gtest_stress_test.cc.o
+/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest_stress_test.dir/test/gtest_stress_test.cc.o -c /opt/gtest/googletest-read-only/test/gtest_stress_test.cc
+Linking CXX executable gtest_stress_test
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/gtest_stress_test.dir/link.txt --verbose=1
+/opt/local/bin/g++-mp-4.7   -Wall -Wextra -ggdb -O0 -DDEBUG -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/gtest_stress_test.dir/test/gtest_stress_test.cc.o  -o gtest_stress_test  -L/opt/gtest/googletest-read-only/build/src  libgtest.dylib 
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles  49
+[ 68%] Built target gtest_stress_test
+make -f CMakeFiles/gtest_throw_on_failure_ex_test.dir/build.make CMakeFiles/gtest_throw_on_failure_ex_test.dir/depend
+cd /opt/gtest/googletest-read-only/build && "/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_depends "Unix Makefiles" /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build/CMakeFiles/gtest_throw_on_failure_ex_test.dir/DependInfo.cmake --color=
+make -f CMakeFiles/gtest_throw_on_failure_ex_test.dir/build.make CMakeFiles/gtest_throw_on_failure_ex_test.dir/build
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles 50
+[ 69%] Building CXX object CMakeFiles/gtest_throw_on_failure_ex_test.dir/test/gtest_throw_on_failure_ex_test.cc.o
+/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest_throw_on_failure_ex_test.dir/test/gtest_throw_on_failure_ex_test.cc.o -c /opt/gtest/googletest-read-only/test/gtest_throw_on_failure_ex_test.cc
+Linking CXX executable gtest_throw_on_failure_ex_test
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/gtest_throw_on_failure_ex_test.dir/link.txt --verbose=1
+/opt/local/bin/g++-mp-4.7   -Wall -Wextra -ggdb -O0 -DDEBUG -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/gtest_throw_on_failure_ex_test.dir/test/gtest_throw_on_failure_ex_test.cc.o  -o gtest_throw_on_failure_ex_test  -L/opt/gtest/googletest-read-only/build/src  libgtest.dylib 
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles  50
+[ 69%] Built target gtest_throw_on_failure_ex_test
+make -f CMakeFiles/gtest_throw_on_failure_test_.dir/build.make CMakeFiles/gtest_throw_on_failure_test_.dir/depend
+cd /opt/gtest/googletest-read-only/build && "/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_depends "Unix Makefiles" /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build/CMakeFiles/gtest_throw_on_failure_test_.dir/DependInfo.cmake --color=
+make -f CMakeFiles/gtest_throw_on_failure_test_.dir/build.make CMakeFiles/gtest_throw_on_failure_test_.dir/build
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles 51
+[ 70%] Building CXX object CMakeFiles/gtest_throw_on_failure_test_.dir/test/gtest_throw_on_failure_test_.cc.o
+/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fno-exceptions -o CMakeFiles/gtest_throw_on_failure_test_.dir/test/gtest_throw_on_failure_test_.cc.o -c /opt/gtest/googletest-read-only/test/gtest_throw_on_failure_test_.cc
+Linking CXX executable gtest_throw_on_failure_test_
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/gtest_throw_on_failure_test_.dir/link.txt --verbose=1
+/opt/local/bin/g++-mp-4.7   -Wall -Wextra -ggdb -O0 -DDEBUG -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/gtest_throw_on_failure_test_.dir/test/gtest_throw_on_failure_test_.cc.o  -o gtest_throw_on_failure_test_  -L/opt/gtest/googletest-read-only/build/src  libgtest_no_exception.dylib 
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles  51
+[ 70%] Built target gtest_throw_on_failure_test_
+make -f CMakeFiles/gtest_uninitialized_test_.dir/build.make CMakeFiles/gtest_uninitialized_test_.dir/depend
+cd /opt/gtest/googletest-read-only/build && "/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_depends "Unix Makefiles" /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build/CMakeFiles/gtest_uninitialized_test_.dir/DependInfo.cmake --color=
+make -f CMakeFiles/gtest_uninitialized_test_.dir/build.make CMakeFiles/gtest_uninitialized_test_.dir/build
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles 52
+[ 72%] Building CXX object CMakeFiles/gtest_uninitialized_test_.dir/test/gtest_uninitialized_test_.cc.o
+/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest_uninitialized_test_.dir/test/gtest_uninitialized_test_.cc.o -c /opt/gtest/googletest-read-only/test/gtest_uninitialized_test_.cc
+Linking CXX executable gtest_uninitialized_test_
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/gtest_uninitialized_test_.dir/link.txt --verbose=1
+/opt/local/bin/g++-mp-4.7   -Wall -Wextra -ggdb -O0 -DDEBUG -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/gtest_uninitialized_test_.dir/test/gtest_uninitialized_test_.cc.o  -o gtest_uninitialized_test_  -L/opt/gtest/googletest-read-only/build/src  libgtest.dylib 
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles  52
+[ 72%] Built target gtest_uninitialized_test_
+make -f CMakeFiles/gtest_unittest.dir/build.make CMakeFiles/gtest_unittest.dir/depend
+cd /opt/gtest/googletest-read-only/build && "/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_depends "Unix Makefiles" /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build/CMakeFiles/gtest_unittest.dir/DependInfo.cmake --color=
+make -f CMakeFiles/gtest_unittest.dir/build.make CMakeFiles/gtest_unittest.dir/build
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles 53
+[ 73%] Building CXX object CMakeFiles/gtest_unittest.dir/test/gtest_unittest.cc.o
+/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest_unittest.dir/test/gtest_unittest.cc.o -c /opt/gtest/googletest-read-only/test/gtest_unittest.cc
+Linking CXX executable gtest_unittest
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/gtest_unittest.dir/link.txt --verbose=1
+/opt/local/bin/g++-mp-4.7   -Wall -Wextra -ggdb -O0 -DDEBUG -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/gtest_unittest.dir/test/gtest_unittest.cc.o  -o gtest_unittest  -L/opt/gtest/googletest-read-only/build/src  libgtest_main.dylib libgtest.dylib 
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles  53
+[ 73%] Built target gtest_unittest
+make -f CMakeFiles/gtest_use_own_tuple_test.dir/build.make CMakeFiles/gtest_use_own_tuple_test.dir/depend
+cd /opt/gtest/googletest-read-only/build && "/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_depends "Unix Makefiles" /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build/CMakeFiles/gtest_use_own_tuple_test.dir/DependInfo.cmake --color=
+make -f CMakeFiles/gtest_use_own_tuple_test.dir/build.make CMakeFiles/gtest_use_own_tuple_test.dir/build
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles 54
+[ 75%] Building CXX object CMakeFiles/gtest_use_own_tuple_test.dir/test/gtest-param-test_test.cc.o
+/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -DGTEST_USE_OWN_TR1_TUPLE=1 -o CMakeFiles/gtest_use_own_tuple_test.dir/test/gtest-param-test_test.cc.o -c /opt/gtest/googletest-read-only/test/gtest-param-test_test.cc
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles 55
+[ 76%] Building CXX object CMakeFiles/gtest_use_own_tuple_test.dir/test/gtest-param-test2_test.cc.o
+/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -DGTEST_USE_OWN_TR1_TUPLE=1 -o CMakeFiles/gtest_use_own_tuple_test.dir/test/gtest-param-test2_test.cc.o -c /opt/gtest/googletest-read-only/test/gtest-param-test2_test.cc
+Linking CXX executable gtest_use_own_tuple_test
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/gtest_use_own_tuple_test.dir/link.txt --verbose=1
+/opt/local/bin/g++-mp-4.7   -Wall -Wextra -ggdb -O0 -DDEBUG -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/gtest_use_own_tuple_test.dir/test/gtest-param-test_test.cc.o CMakeFiles/gtest_use_own_tuple_test.dir/test/gtest-param-test2_test.cc.o  -o gtest_use_own_tuple_test  -L/opt/gtest/googletest-read-only/build/src  libgtest_main_use_own_tuple.dylib 
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles  54 55
+[ 76%] Built target gtest_use_own_tuple_test
+make -f CMakeFiles/gtest_xml_outfile1_test_.dir/build.make CMakeFiles/gtest_xml_outfile1_test_.dir/depend
+cd /opt/gtest/googletest-read-only/build && "/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_depends "Unix Makefiles" /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build/CMakeFiles/gtest_xml_outfile1_test_.dir/DependInfo.cmake --color=
+make -f CMakeFiles/gtest_xml_outfile1_test_.dir/build.make CMakeFiles/gtest_xml_outfile1_test_.dir/build
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles 56
+[ 77%] Building CXX object CMakeFiles/gtest_xml_outfile1_test_.dir/test/gtest_xml_outfile1_test_.cc.o
+/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest_xml_outfile1_test_.dir/test/gtest_xml_outfile1_test_.cc.o -c /opt/gtest/googletest-read-only/test/gtest_xml_outfile1_test_.cc
+Linking CXX executable gtest_xml_outfile1_test_
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/gtest_xml_outfile1_test_.dir/link.txt --verbose=1
+/opt/local/bin/g++-mp-4.7   -Wall -Wextra -ggdb -O0 -DDEBUG -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/gtest_xml_outfile1_test_.dir/test/gtest_xml_outfile1_test_.cc.o  -o gtest_xml_outfile1_test_  -L/opt/gtest/googletest-read-only/build/src  libgtest_main.dylib libgtest.dylib 
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles  56
+[ 77%] Built target gtest_xml_outfile1_test_
+make -f CMakeFiles/gtest_xml_outfile2_test_.dir/build.make CMakeFiles/gtest_xml_outfile2_test_.dir/depend
+cd /opt/gtest/googletest-read-only/build && "/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_depends "Unix Makefiles" /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build/CMakeFiles/gtest_xml_outfile2_test_.dir/DependInfo.cmake --color=
+make -f CMakeFiles/gtest_xml_outfile2_test_.dir/build.make CMakeFiles/gtest_xml_outfile2_test_.dir/build
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles 57
+[ 79%] Building CXX object CMakeFiles/gtest_xml_outfile2_test_.dir/test/gtest_xml_outfile2_test_.cc.o
+/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest_xml_outfile2_test_.dir/test/gtest_xml_outfile2_test_.cc.o -c /opt/gtest/googletest-read-only/test/gtest_xml_outfile2_test_.cc
+Linking CXX executable gtest_xml_outfile2_test_
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/gtest_xml_outfile2_test_.dir/link.txt --verbose=1
+/opt/local/bin/g++-mp-4.7   -Wall -Wextra -ggdb -O0 -DDEBUG -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/gtest_xml_outfile2_test_.dir/test/gtest_xml_outfile2_test_.cc.o  -o gtest_xml_outfile2_test_  -L/opt/gtest/googletest-read-only/build/src  libgtest_main.dylib libgtest.dylib 
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles  57
+[ 79%] Built target gtest_xml_outfile2_test_
+make -f CMakeFiles/gtest_xml_output_unittest_.dir/build.make CMakeFiles/gtest_xml_output_unittest_.dir/depend
+cd /opt/gtest/googletest-read-only/build && "/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_depends "Unix Makefiles" /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build/CMakeFiles/gtest_xml_output_unittest_.dir/DependInfo.cmake --color=
+make -f CMakeFiles/gtest_xml_output_unittest_.dir/build.make CMakeFiles/gtest_xml_output_unittest_.dir/build
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles 58
+[ 80%] Building CXX object CMakeFiles/gtest_xml_output_unittest_.dir/test/gtest_xml_output_unittest_.cc.o
+/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/gtest_xml_output_unittest_.dir/test/gtest_xml_output_unittest_.cc.o -c /opt/gtest/googletest-read-only/test/gtest_xml_output_unittest_.cc
+Linking CXX executable gtest_xml_output_unittest_
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/gtest_xml_output_unittest_.dir/link.txt --verbose=1
+/opt/local/bin/g++-mp-4.7   -Wall -Wextra -ggdb -O0 -DDEBUG -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/gtest_xml_output_unittest_.dir/test/gtest_xml_output_unittest_.cc.o  -o gtest_xml_output_unittest_  -L/opt/gtest/googletest-read-only/build/src  libgtest.dylib 
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles  58
+[ 80%] Built target gtest_xml_output_unittest_
+make -f CMakeFiles/sample10_unittest.dir/build.make CMakeFiles/sample10_unittest.dir/depend
+cd /opt/gtest/googletest-read-only/build && "/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_depends "Unix Makefiles" /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build/CMakeFiles/sample10_unittest.dir/DependInfo.cmake --color=
+make -f CMakeFiles/sample10_unittest.dir/build.make CMakeFiles/sample10_unittest.dir/build
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles 59
+[ 81%] Building CXX object CMakeFiles/sample10_unittest.dir/samples/sample10_unittest.cc.o
+/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/sample10_unittest.dir/samples/sample10_unittest.cc.o -c /opt/gtest/googletest-read-only/samples/sample10_unittest.cc
+Linking CXX executable sample10_unittest
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/sample10_unittest.dir/link.txt --verbose=1
+/opt/local/bin/g++-mp-4.7   -Wall -Wextra -ggdb -O0 -DDEBUG -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/sample10_unittest.dir/samples/sample10_unittest.cc.o  -o sample10_unittest  -L/opt/gtest/googletest-read-only/build/src  libgtest.dylib 
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles  59
+[ 81%] Built target sample10_unittest
+make -f CMakeFiles/sample1_unittest.dir/build.make CMakeFiles/sample1_unittest.dir/depend
+cd /opt/gtest/googletest-read-only/build && "/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_depends "Unix Makefiles" /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build/CMakeFiles/sample1_unittest.dir/DependInfo.cmake --color=
+make -f CMakeFiles/sample1_unittest.dir/build.make CMakeFiles/sample1_unittest.dir/build
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles 60
+[ 83%] Building CXX object CMakeFiles/sample1_unittest.dir/samples/sample1_unittest.cc.o
+/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/sample1_unittest.dir/samples/sample1_unittest.cc.o -c /opt/gtest/googletest-read-only/samples/sample1_unittest.cc
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles 61
+[ 84%] Building CXX object CMakeFiles/sample1_unittest.dir/samples/sample1.cc.o
+/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/sample1_unittest.dir/samples/sample1.cc.o -c /opt/gtest/googletest-read-only/samples/sample1.cc
+Linking CXX executable sample1_unittest
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/sample1_unittest.dir/link.txt --verbose=1
+/opt/local/bin/g++-mp-4.7   -Wall -Wextra -ggdb -O0 -DDEBUG -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/sample1_unittest.dir/samples/sample1_unittest.cc.o CMakeFiles/sample1_unittest.dir/samples/sample1.cc.o  -o sample1_unittest  -L/opt/gtest/googletest-read-only/build/src  libgtest_main.dylib libgtest.dylib 
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles  60 61
+[ 84%] Built target sample1_unittest
+make -f CMakeFiles/sample2_unittest.dir/build.make CMakeFiles/sample2_unittest.dir/depend
+cd /opt/gtest/googletest-read-only/build && "/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_depends "Unix Makefiles" /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build/CMakeFiles/sample2_unittest.dir/DependInfo.cmake --color=
+make -f CMakeFiles/sample2_unittest.dir/build.make CMakeFiles/sample2_unittest.dir/build
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles 62
+[ 86%] Building CXX object CMakeFiles/sample2_unittest.dir/samples/sample2_unittest.cc.o
+/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/sample2_unittest.dir/samples/sample2_unittest.cc.o -c /opt/gtest/googletest-read-only/samples/sample2_unittest.cc
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles 63
+[ 87%] Building CXX object CMakeFiles/sample2_unittest.dir/samples/sample2.cc.o
+/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/sample2_unittest.dir/samples/sample2.cc.o -c /opt/gtest/googletest-read-only/samples/sample2.cc
+Linking CXX executable sample2_unittest
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/sample2_unittest.dir/link.txt --verbose=1
+/opt/local/bin/g++-mp-4.7   -Wall -Wextra -ggdb -O0 -DDEBUG -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/sample2_unittest.dir/samples/sample2_unittest.cc.o CMakeFiles/sample2_unittest.dir/samples/sample2.cc.o  -o sample2_unittest  -L/opt/gtest/googletest-read-only/build/src  libgtest_main.dylib libgtest.dylib 
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles  62 63
+[ 87%] Built target sample2_unittest
+make -f CMakeFiles/sample3_unittest.dir/build.make CMakeFiles/sample3_unittest.dir/depend
+cd /opt/gtest/googletest-read-only/build && "/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_depends "Unix Makefiles" /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build/CMakeFiles/sample3_unittest.dir/DependInfo.cmake --color=
+make -f CMakeFiles/sample3_unittest.dir/build.make CMakeFiles/sample3_unittest.dir/build
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles 64
+[ 88%] Building CXX object CMakeFiles/sample3_unittest.dir/samples/sample3_unittest.cc.o
+/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/sample3_unittest.dir/samples/sample3_unittest.cc.o -c /opt/gtest/googletest-read-only/samples/sample3_unittest.cc
+Linking CXX executable sample3_unittest
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/sample3_unittest.dir/link.txt --verbose=1
+/opt/local/bin/g++-mp-4.7   -Wall -Wextra -ggdb -O0 -DDEBUG -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/sample3_unittest.dir/samples/sample3_unittest.cc.o  -o sample3_unittest  -L/opt/gtest/googletest-read-only/build/src  libgtest_main.dylib libgtest.dylib 
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles  64
+[ 88%] Built target sample3_unittest
+make -f CMakeFiles/sample4_unittest.dir/build.make CMakeFiles/sample4_unittest.dir/depend
+cd /opt/gtest/googletest-read-only/build && "/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_depends "Unix Makefiles" /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build/CMakeFiles/sample4_unittest.dir/DependInfo.cmake --color=
+make -f CMakeFiles/sample4_unittest.dir/build.make CMakeFiles/sample4_unittest.dir/build
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles 65
+[ 90%] Building CXX object CMakeFiles/sample4_unittest.dir/samples/sample4_unittest.cc.o
+/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/sample4_unittest.dir/samples/sample4_unittest.cc.o -c /opt/gtest/googletest-read-only/samples/sample4_unittest.cc
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles 66
+[ 91%] Building CXX object CMakeFiles/sample4_unittest.dir/samples/sample4.cc.o
+/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/sample4_unittest.dir/samples/sample4.cc.o -c /opt/gtest/googletest-read-only/samples/sample4.cc
+Linking CXX executable sample4_unittest
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/sample4_unittest.dir/link.txt --verbose=1
+/opt/local/bin/g++-mp-4.7   -Wall -Wextra -ggdb -O0 -DDEBUG -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/sample4_unittest.dir/samples/sample4_unittest.cc.o CMakeFiles/sample4_unittest.dir/samples/sample4.cc.o  -o sample4_unittest  -L/opt/gtest/googletest-read-only/build/src  libgtest_main.dylib libgtest.dylib 
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles  65 66
+[ 91%] Built target sample4_unittest
+make -f CMakeFiles/sample5_unittest.dir/build.make CMakeFiles/sample5_unittest.dir/depend
+cd /opt/gtest/googletest-read-only/build && "/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_depends "Unix Makefiles" /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build/CMakeFiles/sample5_unittest.dir/DependInfo.cmake --color=
+make -f CMakeFiles/sample5_unittest.dir/build.make CMakeFiles/sample5_unittest.dir/build
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles 67
+[ 93%] Building CXX object CMakeFiles/sample5_unittest.dir/samples/sample5_unittest.cc.o
+/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/sample5_unittest.dir/samples/sample5_unittest.cc.o -c /opt/gtest/googletest-read-only/samples/sample5_unittest.cc
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles 68
+[ 94%] Building CXX object CMakeFiles/sample5_unittest.dir/samples/sample1.cc.o
+/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/sample5_unittest.dir/samples/sample1.cc.o -c /opt/gtest/googletest-read-only/samples/sample1.cc
+Linking CXX executable sample5_unittest
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/sample5_unittest.dir/link.txt --verbose=1
+/opt/local/bin/g++-mp-4.7   -Wall -Wextra -ggdb -O0 -DDEBUG -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/sample5_unittest.dir/samples/sample5_unittest.cc.o CMakeFiles/sample5_unittest.dir/samples/sample1.cc.o  -o sample5_unittest  -L/opt/gtest/googletest-read-only/build/src  libgtest_main.dylib libgtest.dylib 
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles  67 68
+[ 94%] Built target sample5_unittest
+make -f CMakeFiles/sample6_unittest.dir/build.make CMakeFiles/sample6_unittest.dir/depend
+cd /opt/gtest/googletest-read-only/build && "/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_depends "Unix Makefiles" /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build/CMakeFiles/sample6_unittest.dir/DependInfo.cmake --color=
+make -f CMakeFiles/sample6_unittest.dir/build.make CMakeFiles/sample6_unittest.dir/build
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles 69
+[ 95%] Building CXX object CMakeFiles/sample6_unittest.dir/samples/sample6_unittest.cc.o
+/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/sample6_unittest.dir/samples/sample6_unittest.cc.o -c /opt/gtest/googletest-read-only/samples/sample6_unittest.cc
+Linking CXX executable sample6_unittest
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/sample6_unittest.dir/link.txt --verbose=1
+/opt/local/bin/g++-mp-4.7   -Wall -Wextra -ggdb -O0 -DDEBUG -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/sample6_unittest.dir/samples/sample6_unittest.cc.o  -o sample6_unittest  -L/opt/gtest/googletest-read-only/build/src  libgtest_main.dylib libgtest.dylib 
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles  69
+[ 95%] Built target sample6_unittest
+make -f CMakeFiles/sample7_unittest.dir/build.make CMakeFiles/sample7_unittest.dir/depend
+cd /opt/gtest/googletest-read-only/build && "/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_depends "Unix Makefiles" /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build/CMakeFiles/sample7_unittest.dir/DependInfo.cmake --color=
+make -f CMakeFiles/sample7_unittest.dir/build.make CMakeFiles/sample7_unittest.dir/build
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles 70
+[ 97%] Building CXX object CMakeFiles/sample7_unittest.dir/samples/sample7_unittest.cc.o
+/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/sample7_unittest.dir/samples/sample7_unittest.cc.o -c /opt/gtest/googletest-read-only/samples/sample7_unittest.cc
+Linking CXX executable sample7_unittest
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/sample7_unittest.dir/link.txt --verbose=1
+/opt/local/bin/g++-mp-4.7   -Wall -Wextra -ggdb -O0 -DDEBUG -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/sample7_unittest.dir/samples/sample7_unittest.cc.o  -o sample7_unittest  -L/opt/gtest/googletest-read-only/build/src  libgtest_main.dylib libgtest.dylib 
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles  70
+[ 97%] Built target sample7_unittest
+make -f CMakeFiles/sample8_unittest.dir/build.make CMakeFiles/sample8_unittest.dir/depend
+cd /opt/gtest/googletest-read-only/build && "/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_depends "Unix Makefiles" /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build/CMakeFiles/sample8_unittest.dir/DependInfo.cmake --color=
+make -f CMakeFiles/sample8_unittest.dir/build.make CMakeFiles/sample8_unittest.dir/build
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles 71
+[ 98%] Building CXX object CMakeFiles/sample8_unittest.dir/samples/sample8_unittest.cc.o
+/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/sample8_unittest.dir/samples/sample8_unittest.cc.o -c /opt/gtest/googletest-read-only/samples/sample8_unittest.cc
+Linking CXX executable sample8_unittest
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/sample8_unittest.dir/link.txt --verbose=1
+/opt/local/bin/g++-mp-4.7   -Wall -Wextra -ggdb -O0 -DDEBUG -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/sample8_unittest.dir/samples/sample8_unittest.cc.o  -o sample8_unittest  -L/opt/gtest/googletest-read-only/build/src  libgtest_main.dylib libgtest.dylib 
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles  71
+[ 98%] Built target sample8_unittest
+make -f CMakeFiles/sample9_unittest.dir/build.make CMakeFiles/sample9_unittest.dir/depend
+cd /opt/gtest/googletest-read-only/build && "/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_depends "Unix Makefiles" /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build /opt/gtest/googletest-read-only/build/CMakeFiles/sample9_unittest.dir/DependInfo.cmake --color=
+make -f CMakeFiles/sample9_unittest.dir/build.make CMakeFiles/sample9_unittest.dir/build
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles 72
+[100%] Building CXX object CMakeFiles/sample9_unittest.dir/samples/sample9_unittest.cc.o
+/opt/local/bin/g++-mp-4.7   -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -Wall -Wextra -ggdb -O0 -DDEBUG -g -I/opt/gtest/googletest-read-only/include -I/opt/gtest/googletest-read-only    -Wall -Wextra -ggdb -O0 -DDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -o CMakeFiles/sample9_unittest.dir/samples/sample9_unittest.cc.o -c /opt/gtest/googletest-read-only/samples/sample9_unittest.cc
+Linking CXX executable sample9_unittest
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/sample9_unittest.dir/link.txt --verbose=1
+/opt/local/bin/g++-mp-4.7   -Wall -Wextra -ggdb -O0 -DDEBUG -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/sample9_unittest.dir/samples/sample9_unittest.cc.o  -o sample9_unittest  -L/opt/gtest/googletest-read-only/build/src  libgtest.dylib 
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /opt/gtest/googletest-read-only/build/CMakeFiles  72
+[100%] Built target sample9_unittest
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_start /opt/gtest/googletest-read-only/build/CMakeFiles 0
+
+##------------------------------------------------------------------------------
+
+[ bueller @ PRISM1 :: build ]$ make 2>&1 >> GTEST-CMake-00-make.out
+ld: warning: directory not found for option '-L/opt/gtest/googletest-read-only/build/src'
+ld: warning: directory not found for option '-L/opt/gtest/googletest-read-only/build/src'
+ld: warning: directory not found for option '-L/opt/gtest/googletest-read-only/build/src'
+ld: warning: directory not found for option '-L/opt/gtest/googletest-read-only/build/src'
+/opt/gtest/googletest-read-only/test/gtest-death-test_test.cc: In member function 'virtual void TestForDeathTest_SingleStatement_Test::TestBody()':
+/opt/gtest/googletest-read-only/test/gtest-death-test_test.cc:299:5: warning: suggest braces around empty body in an 'else' statement [-Wempty-body]
+/opt/gtest/googletest-read-only/test/gtest-death-test_test.cc: In member function 'virtual void ConditionalDeathMacrosSyntaxDeathTest_SingleStatement_Test::TestBody()':
+/opt/gtest/googletest-read-only/test/gtest-death-test_test.cc:1309:5: warning: suggest braces around empty body in an 'else' statement [-Wempty-body]
+ld: warning: directory not found for option '-L/opt/gtest/googletest-read-only/build/src'
+ld: warning: directory not found for option '-L/opt/gtest/googletest-read-only/build/src'
+ld: warning: directory not found for option '-L/opt/gtest/googletest-read-only/build/src'
+ld: warning: directory not found for option '-L/opt/gtest/googletest-read-only/build/src'
+ld: warning: directory not found for option '-L/opt/gtest/googletest-read-only/build/src'
+ld: warning: directory not found for option '-L/opt/gtest/googletest-read-only/build/src'
+ld: warning: directory not found for option '-L/opt/gtest/googletest-read-only/build/src'
+/opt/gtest/googletest-read-only/test/gtest-port_test.cc: In member function 'virtual void testing::internal::GtestCheckSyntaxTest_BehavesLikeASingleStatement_Test::TestBody()':
+/opt/gtest/googletest-read-only/test/gtest-port_test.cc:248:5: warning: suggest braces around empty body in an 'else' statement [-Wempty-body]
+ld: warning: directory not found for option '-L/opt/gtest/googletest-read-only/build/src'
+/opt/gtest/googletest-read-only/test/gtest-printers_test.cc: In member function 'virtual void testing::gtest_printers_test::PrintStlContainerTest_Iterator_Test::TestBody()':
+/opt/gtest/googletest-read-only/test/gtest-printers_test.cc:972:18: warning: missing initializer for member 'testing::gtest_printers_test::iterator::x' [-Wmissing-field-initializers]
+/opt/gtest/googletest-read-only/test/gtest-printers_test.cc: In member function 'virtual void testing::gtest_printers_test::PrintStlContainerTest_ConstIterator_Test::TestBody()':
+/opt/gtest/googletest-read-only/test/gtest-printers_test.cc:983:24: warning: missing initializer for member 'testing::gtest_printers_test::const_iterator::x' [-Wmissing-field-initializers]
+ld: warning: directory not found for option '-L/opt/gtest/googletest-read-only/build/src'
+ld: warning: directory not found for option '-L/opt/gtest/googletest-read-only/build/src'
+In file included from /opt/gtest/googletest-read-only/src/gtest-all.cc:42:0:
+/opt/gtest/googletest-read-only/src/gtest.cc:366:12: warning: missing initializer for member 'testing::internal::MutexBase::owner_' [-Wmissing-field-initializers]
+ld: warning: directory not found for option '-L/opt/gtest/googletest-read-only/build/src'
+ld: warning: directory not found for option '-L/opt/gtest/googletest-read-only/build/src'
+ld: warning: directory not found for option '-L/opt/gtest/googletest-read-only/build/src'
+/opt/gtest/googletest-read-only/test/gtest-unittest-api_test.cc:57:52: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+/opt/gtest/googletest-read-only/test/gtest-unittest-api_test.cc:86:73: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ld: warning: directory not found for option '-L/opt/gtest/googletest-read-only/build/src'
+ld: warning: directory not found for option '-L/opt/gtest/googletest-read-only/build/src'
+ld: warning: directory not found for option '-L/opt/gtest/googletest-read-only/build/src'
+In file included from /opt/gtest/googletest-read-only/src/gtest-all.cc:42:0:
+/opt/gtest/googletest-read-only/src/gtest.cc:366:12: warning: missing initializer for member 'testing::internal::MutexBase::owner_' [-Wmissing-field-initializers]
+ld: warning: directory not found for option '-L/opt/gtest/googletest-read-only/build/src'
+ld: warning: directory not found for option '-L/opt/gtest/googletest-read-only/build/src'
+ld: warning: directory not found for option '-L/opt/gtest/googletest-read-only/build/src'
+In file included from /opt/gtest/googletest-read-only/src/gtest-all.cc:42:0:
+/opt/gtest/googletest-read-only/src/gtest.cc:366:12: warning: missing initializer for member 'testing::internal::MutexBase::owner_' [-Wmissing-field-initializers]
+ld: warning: directory not found for option '-L/opt/gtest/googletest-read-only/build/src'
+In file included from /opt/gtest/googletest-read-only/test/gtest_all_test.cc:40:0:
+/opt/gtest/googletest-read-only/test/gtest-port_test.cc: In member function 'virtual void testing::internal::GtestCheckSyntaxTest_BehavesLikeASingleStatement_Test::TestBody()':
+/opt/gtest/googletest-read-only/test/gtest-port_test.cc:248:5: warning: suggest braces around empty body in an 'else' statement [-Wempty-body]
+In file included from /opt/gtest/googletest-read-only/test/gtest_all_test.cc:46:0:
+/opt/gtest/googletest-read-only/test/gtest_unittest.cc: In member function 'virtual void {anonymous}::AssertionSyntaxTest_BasicAssertionsBehavesLikeSingleStatement_Test::TestBody()':
+/opt/gtest/googletest-read-only/test/gtest_unittest.cc:3981:5: warning: suggest braces around empty body in an 'else' statement [-Wempty-body]
+/opt/gtest/googletest-read-only/test/gtest_unittest.cc: In member function 'virtual void {anonymous}::AssertionSyntaxTest_ExceptionAssertionsBehavesLikeSingleStatement_Test::TestBody()':
+/opt/gtest/googletest-read-only/test/gtest_unittest.cc:4014:5: warning: suggest braces around empty body in an 'else' statement [-Wempty-body]
+/opt/gtest/googletest-read-only/test/gtest_unittest.cc:4022:5: warning: suggest braces around empty body in an 'else' statement [-Wempty-body]
+/opt/gtest/googletest-read-only/test/gtest_unittest.cc:4030:5: warning: suggest braces around empty body in an 'else' statement [-Wempty-body]
+/opt/gtest/googletest-read-only/test/gtest_unittest.cc: In member function 'virtual void {anonymous}::AssertionSyntaxTest_NoFatalFailureAssertionsBehavesLikeSingleStatement_Test::TestBody()':
+/opt/gtest/googletest-read-only/test/gtest_unittest.cc:4039:5: warning: suggest braces around empty body in an 'else' statement [-Wempty-body]
+/opt/gtest/googletest-read-only/test/gtest_unittest.cc:4044:5: warning: suggest braces around empty body in an 'else' statement [-Wempty-body]
+/opt/gtest/googletest-read-only/test/gtest_unittest.cc:4049:5: warning: suggest braces around empty body in an 'else' statement [-Wempty-body]
+ld: warning: directory not found for option '-L/opt/gtest/googletest-read-only/build/src'
+ld: warning: directory not found for option '-L/opt/gtest/googletest-read-only/build/src'
+ld: warning: directory not found for option '-L/opt/gtest/googletest-read-only/build/src'
+ld: warning: directory not found for option '-L/opt/gtest/googletest-read-only/build/src'
+ld: warning: directory not found for option '-L/opt/gtest/googletest-read-only/build/src'
+ld: warning: directory not found for option '-L/opt/gtest/googletest-read-only/build/src'
+In file included from /opt/gtest/googletest-read-only/src/gtest-all.cc:42:0:
+/opt/gtest/googletest-read-only/src/gtest.cc:366:12: warning: missing initializer for member 'testing::internal::MutexBase::owner_' [-Wmissing-field-initializers]
+ld: warning: directory not found for option '-L/opt/gtest/googletest-read-only/build/src'
+ld: warning: directory not found for option '-L/opt/gtest/googletest-read-only/build/src'
+In file included from /opt/gtest/googletest-read-only/src/gtest-all.cc:42:0:
+/opt/gtest/googletest-read-only/src/gtest.cc:366:12: warning: missing initializer for member 'testing::internal::MutexBase::owner_' [-Wmissing-field-initializers]
+ld: warning: directory not found for option '-L/opt/gtest/googletest-read-only/build/src'
+/opt/gtest/googletest-read-only/test/gtest_unittest.cc: In member function 'virtual void {anonymous}::AssertionSyntaxTest_BasicAssertionsBehavesLikeSingleStatement_Test::TestBody()':
+/opt/gtest/googletest-read-only/test/gtest_unittest.cc:3981:5: warning: suggest braces around empty body in an 'else' statement [-Wempty-body]
+/opt/gtest/googletest-read-only/test/gtest_unittest.cc: In member function 'virtual void {anonymous}::AssertionSyntaxTest_ExceptionAssertionsBehavesLikeSingleStatement_Test::TestBody()':
+/opt/gtest/googletest-read-only/test/gtest_unittest.cc:4014:5: warning: suggest braces around empty body in an 'else' statement [-Wempty-body]
+/opt/gtest/googletest-read-only/test/gtest_unittest.cc:4022:5: warning: suggest braces around empty body in an 'else' statement [-Wempty-body]
+/opt/gtest/googletest-read-only/test/gtest_unittest.cc:4030:5: warning: suggest braces around empty body in an 'else' statement [-Wempty-body]
+/opt/gtest/googletest-read-only/test/gtest_unittest.cc: In member function 'virtual void {anonymous}::AssertionSyntaxTest_NoFatalFailureAssertionsBehavesLikeSingleStatement_Test::TestBody()':
+/opt/gtest/googletest-read-only/test/gtest_unittest.cc:4039:5: warning: suggest braces around empty body in an 'else' statement [-Wempty-body]
+/opt/gtest/googletest-read-only/test/gtest_unittest.cc:4044:5: warning: suggest braces around empty body in an 'else' statement [-Wempty-body]
+/opt/gtest/googletest-read-only/test/gtest_unittest.cc:4049:5: warning: suggest braces around empty body in an 'else' statement [-Wempty-body]
+ld: warning: directory not found for option '-L/opt/gtest/googletest-read-only/build/src'
+ld: warning: directory not found for option '-L/opt/gtest/googletest-read-only/build/src'
+ld: warning: directory not found for option '-L/opt/gtest/googletest-read-only/build/src'
+ld: warning: directory not found for option '-L/opt/gtest/googletest-read-only/build/src'
+ld: warning: directory not found for option '-L/opt/gtest/googletest-read-only/build/src'
+ld: warning: directory not found for option '-L/opt/gtest/googletest-read-only/build/src'
+ld: warning: directory not found for option '-L/opt/gtest/googletest-read-only/build/src'
+ld: warning: directory not found for option '-L/opt/gtest/googletest-read-only/build/src'
+ld: warning: directory not found for option '-L/opt/gtest/googletest-read-only/build/src'
+ld: warning: directory not found for option '-L/opt/gtest/googletest-read-only/build/src'
+ld: warning: directory not found for option '-L/opt/gtest/googletest-read-only/build/src'
+ld: warning: directory not found for option '-L/opt/gtest/googletest-read-only/build/src'
+/opt/gtest/googletest-read-only/test/gtest_unittest.cc: In member function 'virtual void {anonymous}::AssertionSyntaxTest_BasicAssertionsBehavesLikeSingleStatement_Test::TestBody()':
+/opt/gtest/googletest-read-only/test/gtest_unittest.cc:3981:5: warning: suggest braces around empty body in an 'else' statement [-Wempty-body]
+/opt/gtest/googletest-read-only/test/gtest_unittest.cc: In member function 'virtual void {anonymous}::AssertionSyntaxTest_ExceptionAssertionsBehavesLikeSingleStatement_Test::TestBody()':
+/opt/gtest/googletest-read-only/test/gtest_unittest.cc:4014:5: warning: suggest braces around empty body in an 'else' statement [-Wempty-body]
+/opt/gtest/googletest-read-only/test/gtest_unittest.cc:4022:5: warning: suggest braces around empty body in an 'else' statement [-Wempty-body]
+/opt/gtest/googletest-read-only/test/gtest_unittest.cc:4030:5: warning: suggest braces around empty body in an 'else' statement [-Wempty-body]
+/opt/gtest/googletest-read-only/test/gtest_unittest.cc: In member function 'virtual void {anonymous}::AssertionSyntaxTest_NoFatalFailureAssertionsBehavesLikeSingleStatement_Test::TestBody()':
+/opt/gtest/googletest-read-only/test/gtest_unittest.cc:4039:5: warning: suggest braces around empty body in an 'else' statement [-Wempty-body]
+/opt/gtest/googletest-read-only/test/gtest_unittest.cc:4044:5: warning: suggest braces around empty body in an 'else' statement [-Wempty-body]
+/opt/gtest/googletest-read-only/test/gtest_unittest.cc:4049:5: warning: suggest braces around empty body in an 'else' statement [-Wempty-body]
+ld: warning: directory not found for option '-L/opt/gtest/googletest-read-only/build/src'
+ld: warning: directory not found for option '-L/opt/gtest/googletest-read-only/build/src'
+ld: warning: directory not found for option '-L/opt/gtest/googletest-read-only/build/src'
+ld: warning: directory not found for option '-L/opt/gtest/googletest-read-only/build/src'
+ld: warning: directory not found for option '-L/opt/gtest/googletest-read-only/build/src'
+ld: warning: directory not found for option '-L/opt/gtest/googletest-read-only/build/src'
+ld: warning: directory not found for option '-L/opt/gtest/googletest-read-only/build/src'
+ld: warning: directory not found for option '-L/opt/gtest/googletest-read-only/build/src'
+ld: warning: directory not found for option '-L/opt/gtest/googletest-read-only/build/src'
+ld: warning: directory not found for option '-L/opt/gtest/googletest-read-only/build/src'
+ld: warning: directory not found for option '-L/opt/gtest/googletest-read-only/build/src'
+ld: warning: directory not found for option '-L/opt/gtest/googletest-read-only/build/src'
+ld: warning: directory not found for option '-L/opt/gtest/googletest-read-only/build/src'
+ld: warning: directory not found for option '-L/opt/gtest/googletest-read-only/build/src'
+ld: warning: directory not found for option '-L/opt/gtest/googletest-read-only/build/src'
+
+##==+====1====+====2====+====3====+====4====+====5====+====6====+====7====+====8
+/opt/gtest/googletest-read-only/build
+total 68104
+drwxr-xr-x  70 bueller  staff     2380 May 13 13:38 ./
+drwxr-xr-x  23 bueller  staff      782 May 13 13:02 ../
+-rw-r--r--   1 bueller  staff    13367 May 13 13:20 CMakeCache.txt
+drwxr-xr-x  71 bueller  staff     2414 May 13 13:33 CMakeFiles/
+-rw-r--r--   1 bueller  staff     5046 May 13 13:20 CTestTestfile.cmake
+-rw-r--r--   1 bueller  staff   132373 May 13 13:38 GTEST-CMake-00-make.out
+-rw-r--r--   1 bueller  staff   104151 May 13 13:20 Makefile
+drwxr-xr-x   3 bueller  staff      102 May 13 13:25 Testing/
+-rw-r--r--   1 bueller  staff     1473 May 13 13:20 cmake_install.cmake
+-rw-r--r--   1 bueller  staff    39439 May 13 13:20 compile_commands.json
+-rwxr-xr-x   1 bueller  staff    57152 May 13 13:31 gtest-death-test_ex_catch_test*
+-rwxr-xr-x   1 bueller  staff    57152 May 13 13:31 gtest-death-test_ex_nocatch_test*
+-rwxr-xr-x   1 bueller  staff   734116 May 13 13:31 gtest-death-test_test*
+-rwxr-xr-x   1 bueller  staff   480236 May 13 13:31 gtest-filepath_test*
+-rwxr-xr-x   1 bueller  staff    69332 May 13 13:31 gtest-linked_ptr_test*
+-rwxr-xr-x   1 bueller  staff   106172 May 13 13:31 gtest-listener_test*
+-rwxr-xr-x   1 bueller  staff   172536 May 13 13:31 gtest-message_test*
+-rwxr-xr-x   1 bueller  staff   138232 May 13 13:31 gtest-options_test*
+-rwxr-xr-x   1 bueller  staff  1869056 May 13 13:31 gtest-param-test_test*
+-rwxr-xr-x   1 bueller  staff   721984 May 13 13:31 gtest-port_test*
+-rwxr-xr-x   1 bueller  staff  1858620 May 13 13:31 gtest-printers_test*
+-rwxr-xr-x   1 bueller  staff   160244 May 13 13:31 gtest-test-part_test*
+-rwxr-xr-x   1 bueller  staff   348964 May 13 13:31 gtest-tuple_test*
+-rwxr-xr-x   1 bueller  staff   539048 May 13 13:31 gtest-typed-test_test*
+-rwxr-xr-x   1 bueller  staff   200900 May 13 13:31 gtest-unittest-api_test*
+-rwxr-xr-x   1 bueller  staff    38660 May 13 13:31 gtest_break_on_failure_unittest_*
+-rwxr-xr-x   1 bueller  staff   116852 May 13 13:31 gtest_catch_exceptions_ex_test_*
+-rwxr-xr-x   1 bueller  staff    15084 May 13 13:32 gtest_catch_exceptions_no_ex_test_*
+-rwxr-xr-x   1 bueller  staff    28040 May 13 13:32 gtest_color_test_*
+-rwxr-xr-x   1 bueller  staff  6711992 May 13 13:32 gtest_dll_test_*
+-rwxr-xr-x   1 bueller  staff    30072 May 13 13:32 gtest_env_var_test_*
+-rwxr-xr-x   1 bueller  staff    40780 May 13 13:32 gtest_environment_test*
+-rwxr-xr-x   1 bueller  staff   307940 May 13 13:32 gtest_filter_unittest_*
+-rwxr-xr-x   1 bueller  staff    40964 May 13 13:32 gtest_help_test_*
+-rwxr-xr-x   1 bueller  staff   524800 May 13 13:32 gtest_list_tests_unittest_*
+-rwxr-xr-x   1 bueller  staff    25428 May 13 13:32 gtest_main_unittest*
+-rwxr-xr-x   1 bueller  staff  3184192 May 13 13:32 gtest_no_rtti_unittest*
+-rwxr-xr-x   1 bueller  staff    28552 May 13 13:32 gtest_no_test_unittest*
+-rwxr-xr-x   1 bueller  staff   908444 May 13 13:32 gtest_output_test_*
+-rwxr-xr-x   1 bueller  staff  1284876 May 13 13:32 gtest_pred_impl_unittest*
+-rwxr-xr-x   1 bueller  staff    47192 May 13 13:33 gtest_prod_test*
+-rwxr-xr-x   1 bueller  staff   233848 May 13 13:33 gtest_repeat_test*
+-rwxr-xr-x   1 bueller  staff   113732 May 13 13:33 gtest_shuffle_test_*
+-rwxr-xr-x   1 bueller  staff    47860 May 13 13:33 gtest_sole_header_test*
+-rwxr-xr-x   1 bueller  staff   180256 May 13 13:33 gtest_stress_test*
+-rwxr-xr-x   1 bueller  staff    29936 May 13 13:33 gtest_throw_on_failure_ex_test*
+-rwxr-xr-x   1 bueller  staff    28144 May 13 13:33 gtest_throw_on_failure_test_*
+-rwxr-xr-x   1 bueller  staff    26232 May 13 13:33 gtest_uninitialized_test_*
+-rwxr-xr-x   1 bueller  staff  3690780 May 13 13:33 gtest_unittest*
+-rwxr-xr-x   1 bueller  staff  1851368 May 13 13:33 gtest_use_own_tuple_test*
+-rwxr-xr-x   1 bueller  staff    28864 May 13 13:33 gtest_xml_outfile1_test_*
+-rwxr-xr-x   1 bueller  staff    28864 May 13 13:33 gtest_xml_outfile2_test_*
+-rwxr-xr-x   1 bueller  staff   448032 May 13 13:33 gtest_xml_output_unittest_*
+-rwxr-xr-x   1 bueller  staff   943112 May 13 13:31 libgtest.dylib*
+-rwxr-xr-x   1 bueller  staff   944848 May 13 13:32 libgtest_dll.dylib*
+-rwxr-xr-x   1 bueller  staff    14948 May 13 13:31 libgtest_main.dylib*
+-rwxr-xr-x   1 bueller  staff   836024 May 13 13:32 libgtest_main_no_exception.dylib*
+-rwxr-xr-x   1 bueller  staff   934964 May 13 13:32 libgtest_main_no_rtti.dylib*
+-rwxr-xr-x   1 bueller  staff   944680 May 13 13:31 libgtest_main_use_own_tuple.dylib*
+-rwxr-xr-x   1 bueller  staff   830136 May 13 13:32 libgtest_no_exception.dylib*
+-rwxr-xr-x   1 bueller  staff    61436 May 13 13:33 sample10_unittest*
+-rwxr-xr-x   1 bueller  staff    80580 May 13 13:33 sample1_unittest*
+-rwxr-xr-x   1 bueller  staff    70564 May 13 13:33 sample2_unittest*
+-rwxr-xr-x   1 bueller  staff    73348 May 13 13:33 sample3_unittest*
+-rwxr-xr-x   1 bueller  staff    40552 May 13 13:33 sample4_unittest*
+-rwxr-xr-x   1 bueller  staff    96944 May 13 13:33 sample5_unittest*
+-rwxr-xr-x   1 bueller  staff   252892 May 13 13:33 sample6_unittest*
+-rwxr-xr-x   1 bueller  staff   298744 May 13 13:33 sample7_unittest*
+-rwxr-xr-x   1 bueller  staff   396824 May 13 13:33 sample8_unittest*
+-rwxr-xr-x   1 bueller  staff    63744 May 13 13:33 sample9_unittest*
